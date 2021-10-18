@@ -44,7 +44,9 @@ SAP Private Link service supports the following scenarios:
 -    [Consume Azure Native Services in SAP BTP](Consume_Azure_Native_Services_in_SAP_BTP_e9cc677.md)
 
     > ### Restriction:  
-    > For the beta release, you can connect to Microsoft Azure Private Link Service running behind the Azure Standard Load Balancer.
+    > -   For the beta release, you can connect to Microsoft Azure Private Link Service running behind the Azure Standard Load Balancer.
+    > 
+    > -   Do not use the SAP Private Link service to connect to Azure resources located in another Azure region than your Cloud Foundry environment region. We are working on lifting this restriction in future releases. For an overview of the existing regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loiof344a57233d34199b2123b9620d0bb41).
 
 
 

@@ -1,6 +1,6 @@
 <!-- loio61fa6a04b3a645e28dde020cc319a6df -->
 
-# What's New for SAP Private Link Service
+# What's New for SAP Private Link Service 
 
 
 
@@ -40,6 +40,13 @@ Title
 <th>
 
 Description
+
+
+
+</th>
+<th>
+
+Action
 
 
 
@@ -97,6 +104,11 @@ When binding a service instance of type `privatelink` and service plan `standard
 </td>
 <td>
 
+
+
+</td>
+<td>
+
 Changed
 
 
@@ -146,6 +158,11 @@ Use SAP Private Link service to establish a private connection between selected 
 With this beta release, SAP Private Link service lets you consume selected Azure native services in your own Microsoft Azure subscriptions in SAP BTP. Additional scenarios will follow soon.
 
 See [What Is SAP Private Link Service \(Beta\)?](https://help.sap.com/viewer/42acd88cb4134ba2a7d3e0e62c9fe6cf/CLOUD/en-US/).
+
+
+
+</td>
+<td>
 
 
 
