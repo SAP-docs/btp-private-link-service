@@ -1,6 +1,6 @@
 <!-- loio61fa6a04b3a645e28dde020cc319a6df -->
 
-# What's New for SAP Private Link Service 
+# What's New for SAP Private Link Service \(Beta\) 
 
 
 
@@ -9,56 +9,56 @@
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Technical Component
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Capability
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Environment
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Title
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as of
 
@@ -67,54 +67,54 @@ Available as of
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-SAP Private Link
+SAP Private Link \(Beta\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Binding Tags in the VCAP\_SERVICES Environment Variable
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When binding a service instance of type `privatelink` and service plan `standard` to an application, the binding tags `privatelink` and `privatelinkservice` are now included in the corresponding `privatelink` section of the VCAP\_SERVICES environment variable.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Changed
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2021-07-29
 
@@ -123,58 +123,58 @@ Changed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-SAP Private Link
+SAP Private Link \(Beta\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Beta Release on Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Use SAP Private Link service to establish a private connection between selected SAP BTP services and selected services in your own IaaS provider accounts.
+Use SAP Private Link service \(Beta\) to establish a private connection between selected SAP BTP services and selected services in your own IaaS provider accounts.
 
-With this beta release, SAP Private Link service lets you consume selected Azure native services in your own Microsoft Azure subscriptions in SAP BTP. Additional scenarios will follow soon.
+With this beta release, SAP Private Link service \(Beta\) lets you consume selected Azure native services in your own Microsoft Azure subscriptions in SAP BTP. Additional scenarios will follow soon.
 
 See [What Is SAP Private Link Service \(Beta\)?](https://help.sap.com/viewer/42acd88cb4134ba2a7d3e0e62c9fe6cf/CLOUD/en-US/).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2021-06-24
 
