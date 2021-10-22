@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-private-link-service)](https://api.reuse.software/info/github.com/SAP-docs/btp-private-link-service)
 
 # Contributions to SAP Private Link Service (Beta) Documentation
 
