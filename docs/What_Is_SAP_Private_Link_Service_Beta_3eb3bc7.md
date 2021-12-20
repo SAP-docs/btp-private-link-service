@@ -41,7 +41,7 @@ For more information, see [Concepts](Concepts_6c7c8a9.md).
 
 SAP Private Link service \(Beta\) supports the following scenarios:
 
--    [Consume Azure Services in SAP BTP](using_sap_private_link_service/Consume_Azure_Services_in_SAP_BTP_e9cc677.md)
+-    [Consume Azure Services in SAP BTP](using-sap-private-link-service/Consume_Azure_Services_in_SAP_BTP_e9cc677.md)
 
     > ### Restriction:  
     > -   For the beta release, you can connect to Microsoft Azure Private Link Service running behind the Azure Standard Load Balancer.
