@@ -2,16 +2,6 @@
 
 # Monitoring and Troubleshooting
 
-
-
-## Context
-
-If you encounter an issue with this service, we recommend following this procedure:
-
-
-
-## Procedure
-
 1.  Check the platform status.
 
     Check the availability of the platform at [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html).
