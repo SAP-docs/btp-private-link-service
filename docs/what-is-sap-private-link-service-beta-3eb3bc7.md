@@ -33,7 +33,7 @@ To privately access a service in your IaaS Provider account, SAP Private Link se
 
  ![Establish a private connection using SAP Private Link service (Beta).](images/Private_Account_Overview_56b73fb.png) 
 
-For more information, see [Concepts](Concepts_6c7c8a9.md).
+For more information, see [Concepts](concepts-6c7c8a9.md).
 
 
 
@@ -41,7 +41,7 @@ For more information, see [Concepts](Concepts_6c7c8a9.md).
 
 SAP Private Link service \(Beta\) supports the following scenarios:
 
--    [Consume Azure Services in SAP BTP](using-sap-private-link-service/Consume_Azure_Services_in_SAP_BTP_e9cc677.md)
+-    [Consume Azure Services in SAP BTP](using-sap-private-link-service/consume-azure-services-in-sap-btp-e9cc677.md)
 
     > ### Restriction:  
     > -   For the beta release, you can connect to Microsoft Azure Private Link Service running behind the Azure Standard Load Balancer.

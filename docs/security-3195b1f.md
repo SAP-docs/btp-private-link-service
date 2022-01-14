@@ -54,7 +54,7 @@ For general information about data protection and privacy on SAP BTP, see the SA
 > ### Caution:  
 > The SAP Private Link service \(Beta\) does not provide the technical capabilities to support the collection, processing, and storage of personal data.
 
--   **[Best Practices for Secure Endpoint Approval](Best_Practices_for_Secure_Endpoint_Approval_844bca7.md "Learn about recommended secure approval processes when establishing a connection via
+-   **[Best Practices for Secure Endpoint Approval](best-practices-for-secure-endpoint-approval-844bca7.md "Learn about recommended secure approval processes when establishing a connection via
 			Private Link service
                             (Beta).")**  
 Learn about recommended secure approval processes when establishing a connection via Private Link service \(Beta\).
