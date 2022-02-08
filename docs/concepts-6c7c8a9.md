@@ -47,5 +47,5 @@ However, this binding does not include any credentials for accessing the service
  
 
 > ### Note:  
-> Depending on the IaaS provider, you might need to perform additional steps. For more information, see [Using SAP Private Link Service \(Beta\)](using-sap-private-link-service/using-sap-private-link-service-beta-3672119.md).
+> Depending on the IaaS provider, you might need to perform additional steps. For more information, see [Using SAP Private Link Service \(Beta\)](using-sap-private-link-service/using-sap-private-link-service-beta-3672119.md). 
 
