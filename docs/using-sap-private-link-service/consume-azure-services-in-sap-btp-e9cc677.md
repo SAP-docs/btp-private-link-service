@@ -33,7 +33,7 @@ To privately access a service in your Azure subcription, SAP Private Link servic
 
 The following Azure services can currently be consumed from SAP BTP:
 
--   [Azure Private Link service](azure-private-link-service-e8bc0c6.md)
+-   [Azure Private Link service](azure-private-link-service-e8bc0c6.md) (aka Azure Load Balancer + VM scenario)
 
 -   [Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md)
 
