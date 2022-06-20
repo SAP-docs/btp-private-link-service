@@ -1,6 +1,6 @@
 <!-- loioe8bc0c6440834a47a0ff57cb4efc0dc2 -->
 
-# Azure Private Link service
+# Azure Private Link Service
 
 Consume Azure Private Link service with SAP Private Link service \(Beta\).
 
