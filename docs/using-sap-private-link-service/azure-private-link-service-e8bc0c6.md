@@ -173,7 +173,7 @@ Additional private DNS entry to connect to the Azure resource.
 
 The SAP Private Link service creates private DNS entries for Azure Private Link services. These entries can be used to issue TLS certificates so that connected systems can identify themselves.
 
-The binding credentials of a CF service instance contain information about the created private DNS entries.
+The binding credentials of a Cloud Foundry service instance contain information about the created private DNS entries.
 
 The *hostname* sticks to the pattern `<CF service instance ID>.<resource ID hash>.<private DNS zone>`, whereas *additionalHostname* sticks to `<CF service instance ID>.<private DNS zone>`.
 
