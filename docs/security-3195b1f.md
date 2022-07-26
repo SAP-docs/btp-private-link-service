@@ -2,7 +2,7 @@
 
 # Security
 
-Get an overview of the security-relevant information for the SAP Private Link service \(Beta\).
+Get an overview of the security-relevant information for the SAP Private Link service.
 
 For information on the security features of SAP BTP, see [Security for SAP BTP](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e129aa20c78c4a9fb379b9803b02e5f6.html).
 
@@ -12,7 +12,7 @@ For information on the security features of SAP BTP, see [Security for SAP BTP](
 
 ## Security Groups
 
-When a binding between a Cloud Foundry application and a private link service instance is created, SAP Private Link service \(Beta\) creates a space-scoped Cloud Foundry application security group that enables network access to the IP address associated with the private endpoint. For more information, see [App Security Groups](https://docs.cloudfoundry.org/concepts/asg.html).
+When a binding between a Cloud Foundry application and a private link service instance is created, SAP Private Link service creates a space-scoped Cloud Foundry application security group that enables network access to the IP address associated with the private endpoint. For more information, see [App Security Groups](https://docs.cloudfoundry.org/concepts/asg.html).
 
 
 
@@ -20,7 +20,7 @@ When a binding between a Cloud Foundry application and a private link service in
 
 ## Audit and Logging Information
 
-The SAP Private Link service \(Beta\) relies on the audit logging capabilities of the Cloud Foundry environment. For more information, see [Audit Logging in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f92c86ab11f6474ea5579d839051c334.html).
+The SAP Private Link service relies on the audit logging capabilities of the Cloud Foundry environment. For more information, see [Audit Logging in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f92c86ab11f6474ea5579d839051c334.html).
 
 
 
@@ -28,7 +28,7 @@ The SAP Private Link service \(Beta\) relies on the audit logging capabilities o
 
 ## Identity and Access Management
 
-The SAP Private Link service \(Beta\) relies on the identity and access management capabilities of the Cloud Foundry environment. To find out how to manage user identities and access in the Cloud Foundry environment, see [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html).
+The SAP Private Link service relies on the identity and access management capabilities of the Cloud Foundry environment. To find out how to manage user identities and access in the Cloud Foundry environment, see [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html).
 
 
 
@@ -36,7 +36,7 @@ The SAP Private Link service \(Beta\) relies on the identity and access manageme
 
 ## Network and Communication Security
 
-The SAP Private Link service \(Beta\) handles connectivity between SAP BTP customer accounts and customer IaaS services over the backbone network of the partner IaaS provider.
+The SAP Private Link service handles connectivity between SAP BTP customer accounts and customer IaaS services over the backbone network of the partner IaaS provider.
 
 
 
@@ -52,10 +52,9 @@ Governments place legal requirements on industry to protect data and privacy. We
 For general information about data protection and privacy on SAP BTP, see the SAP BTP documentation under [Data Protection and Privacy](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html).
 
 > ### Caution:  
-> The SAP Private Link service \(Beta\) does not provide the technical capabilities to support the collection, processing, and storage of personal data.
+> The SAP Private Link service does not provide the technical capabilities to support the collection, processing, and storage of personal data.
 
--   **[Best Practices for Secure Endpoint Approval](best-practices-for-secure-endpoint-approval-844bca7.md "Learn about recommended secure approval processes when establishing a connection via
-			Private Link service
-                            (Beta).")**  
-Learn about recommended secure approval processes when establishing a connection via Private Link service \(Beta\).
+-   **[Best Practices for Secure Endpoint Approval on Azure](best-practices-for-secure-endpoint-approval-on-azure-844bca7.md "Learn about recommended secure approval processes when establishing a connection via
+			Private Link service .")**  
+Learn about recommended secure approval processes when establishing a connection via Private Link service.
 

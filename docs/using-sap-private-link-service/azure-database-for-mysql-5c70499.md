@@ -2,7 +2,7 @@
 
 # Azure Database for MySQL
 
-Consume Azure Database for MySQL with SAP Private Link service \(Beta\).
+Consume Azure Database for MySQL with SAP Private Link service.
 
 
 

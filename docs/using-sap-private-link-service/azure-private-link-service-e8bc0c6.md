@@ -2,7 +2,7 @@
 
 # Azure Private Link Service
 
-Consume Azure Private Link service with SAP Private Link service \(Beta\).
+Consume Azure Private Link service with SAP Private Link service.
 
 
 
@@ -171,7 +171,7 @@ Additional private DNS entry to connect to the Azure resource.
 
 ## Transport Layer Security
 
-The SAP Private Link service creates private DNS entries for Azure Private Link services. These entries can be used to issue TLS certificates so that connected systems can identify themselves.
+The SAP Private Link service creates private DNS entries for [Azure Private Link services](https://docs.microsoft.com/en-us/azure/private-link/private-link-service-overview). These entries can be used to issue TLS certificates so that connected systems can identify themselves.
 
 The binding credentials of a Cloud Foundry service instance contain information about the created private DNS entries.
 
@@ -179,7 +179,43 @@ The *hostname* sticks to the pattern `<CF service instance ID>.<resource ID hash
 
 The connected system might identify itself with a wildcard TLS certificate issued for `*.<resource ID hash>.<private DNS zone>`, basically a subset of the domain provided via *hostname*. This ensures validity of the certificate across different Private Link service instances for the same resource ID. Thus, we recommend installing a TLS certificate for `*.<resource ID hash>.<private DNS zone>` on your backing system and connecting via hostname.
 
-After a service instance has been deleted, Private Link service \(Beta\) ensures that the hostname of a new service instance carries the same `<resource ID hash>.<private DNS zone>` for three months. This ensures that wildcard certificates continue to work even after the re-creation of a service instance.
+After a service instance has been deleted, Private Link service ensures that the hostname of a new service instance carries the same `<resource ID hash>.<private DNS zone>` for three months. This ensures that wildcard certificates continue to work even after the re-creation of a service instance.
 
 In case TLS certificate validity across different Private Link service instances is technically not possible, the connected system might identify itself with a certificate for `<CF service instance ID>.<private DNS zone>`which equals to the provided *additionalHostname*.
+
+
+
+### Use Your Own Hostname and TLS Certificate
+
+If it’s not possible or desired to sign and install TLS certificates for internal hostnames provided by Private Link service, customers can bring their own hostname and certificates with the following procedure:
+
+1.  Create the service instance as described before. Note down the provided *additionalHostname* or *hostname* 
+
+2.  In the customer’s public DNS provider, choose a hostname in an internet-resolvable domain.
+
+    For example:
+
+    > ### Sample Code:  
+    > ```
+    > my-pls-1.services.mycompany.com and create a CNAME record pointing to the hostname
+    > ```
+
+    For example:
+
+    > ### Sample Code:  
+    > ```
+    > my-pls-1.services.mycompany.com CNAME db0ebb6b-d6b9-edfb-85a6-a22076438dd0.p1.pls.sap.internal
+    > ```
+
+    > ### Note:  
+    > Be aware that this record must be *created in a DNS zone that’s resolvable from the internet*, so that apps in SAP BTP can resolve the hostname.
+
+3.  Retrieve a TLS certificate for the customer hostname from a preferred certificate supplier. This can be either a public PKI like DigiCert, LetsEncrypt, Symantec public PKIs, or a company-internal PKI
+
+4.  Install the TLS key and certificate, for example SAP destination service truststore, on the service that backs the Azure Private Link service \(running behind the Azure Standard Load Balancer\).
+
+5.  Applications running in SAP BTP will now be able to connect to the Azure Private Link service \(running behind the Azure Standard Load Balancer\) by connecting to `my-pls-1.mycompany.com`. The certificate presented by the server will match the hostname, and the connection will be established flawlessly.
+
+
+This approach allows you to use your existing DNS & TLS certificate procedures together with service instances provided by SAP Private Link service.
 

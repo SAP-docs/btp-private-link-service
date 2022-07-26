@@ -2,7 +2,7 @@
 
 # Consume Azure Services in SAP BTP
 
-SAP Private Link service \(Beta\) establishes a private connection between selected SAP BTP services and selected services in your own Microsoft Azure subscriptions.
+SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own Microsoft Azure subscriptions.
 
 
 
@@ -10,7 +10,7 @@ SAP Private Link service \(Beta\) establishes a private connection between selec
 
 ## Overview
 
-To privately access a service in your Azure subcription, SAP Private Link service \(Beta\) creates a private endpoint and reuses the private link functionality of Azure:
+To privately access a service in your Azure subcription, SAP Private Link service creates a private endpoint and reuses the private link functionality of Azure:
 
  ![Consuming Azure services in SAP BTP.](images/Private_Link_-_Scenario_1_0745a1a.png) 
 
@@ -33,7 +33,7 @@ To privately access a service in your Azure subcription, SAP Private Link servic
 
 The following Azure services can currently be consumed from SAP BTP:
 
--   [Azure Private Link service](azure-private-link-service-e8bc0c6.md) (aka Azure Load Balancer + VM scenario)
+-   [Azure Private Link Service](azure-private-link-service-e8bc0c6.md)
 
 -   [Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md)
 
@@ -46,15 +46,12 @@ The following Azure services can currently be consumed from SAP BTP:
 
 ## Tutorial
 
-To learn how to connect the SAP Private Link service \(Beta\) to Microsoft Azure, see [Connect SAP Private Link Service to Microsoft Azure Private Link Service with Cloud Foundry CLI](https://developers.sap.com/tutorials/private-link-microsoft-azure.html).
+To learn how to connect the SAP Private Link service to Microsoft Azure, see [Connect SAP Private Link Service to Microsoft Azure Private Link Service with Cloud Foundry CLI](https://developers.sap.com/tutorials/private-link-microsoft-azure.html).
 
--   **[Azure Private Link service](azure-private-link-service-e8bc0c6.md "Consume Azure Private Link service with SAP Private Link service
-                            (Beta). ")**  
-Consume Azure Private Link service with SAP Private Link service \(Beta\).
--   **[Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md "Consume Azure Database for MariaDB with SAP Private Link service
-                            (Beta). ")**  
-Consume Azure Database for MariaDB with SAP Private Link service \(Beta\).
--   **[Azure Database for MySQL](azure-database-for-mysql-5c70499.md "Consume Azure Database for MySQL with SAP Private Link service
-                            (Beta). ")**  
-Consume Azure Database for MySQL with SAP Private Link service \(Beta\).
+-   **[Azure Private Link Service](azure-private-link-service-e8bc0c6.md "Consume Azure Private Link service with SAP Private Link service . ")**  
+Consume Azure Private Link service with SAP Private Link service.
+-   **[Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md "Consume Azure Database for MariaDB with SAP Private Link service . ")**  
+Consume Azure Database for MariaDB with SAP Private Link service.
+-   **[Azure Database for MySQL](azure-database-for-mysql-5c70499.md "Consume Azure Database for MySQL with SAP Private Link service . ")**  
+Consume Azure Database for MySQL with SAP Private Link service.
 

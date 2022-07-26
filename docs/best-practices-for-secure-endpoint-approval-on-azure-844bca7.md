@@ -1,8 +1,8 @@
 <!-- loio844bca7a51f04a15be865b9a6c1867b0 -->
 
-# Best Practices for Secure Endpoint Approval
+# Best Practices for Secure Endpoint Approval on Azure
 
-Learn about recommended secure approval processes when establishing a connection via Private Link service \(Beta\).
+Learn about recommended secure approval processes when establishing a connection via Private Link service.
 
 
 
@@ -36,7 +36,7 @@ If the person creating the request in SAP BTP and the person approving those req
 > 	Showing status of last operation from service privatelink-test...
 > 
 > 	status:    create in progress
-> 	message:   Please approve the connection for Private Endpoint `sap-privatelink-00000000-0000-0000-0000-000000000001` in your Azure portal
+> 	message:   Please approve the connection for Private Endpoint sap-privatelink-00000000-0000-0000-0000-000000000001 in your Azure portal
 > 
 > ```
 

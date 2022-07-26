@@ -2,7 +2,7 @@
 
 # Azure Database for MariaDB
 
-Consume Azure Database for MariaDB with SAP Private Link service \(Beta\).
+Consume Azure Database for MariaDB with SAP Private Link service.
 
 
 
