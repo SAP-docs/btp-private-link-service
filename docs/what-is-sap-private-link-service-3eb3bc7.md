@@ -1,5 +1,7 @@
 <!-- loio3eb3bc7aa5db4b5da9dcdbf8ee478e52 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # What Is SAP Private Link Service?
 
  Provide private connectivity to selected services. 
@@ -12,6 +14,23 @@ If you are running your applications or services on SAP BTP and you want to comm
 > The Private Link service currently only supports the SAP BTP Cloud Foundry runtime.
 > 
 > For the future, we are evaluating the integration in other services such as CPI, SAC, DWC, HANA Cloud, Connectivity Service/Cloud Connector, and Kyma runtime.
+
+> ### Tip:  
+> The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
+> 
+> -   <span class="SAP-icons"></span> Edit : Contribute to a document in the guide. This option opens a pull request on GitHub.
+> 
+> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a document in the guide. This option opens an issue on GitHub.
+> 
+> 
+> To use these options, a GitHub account is required.
+> 
+> More information:
+> 
+> -   [**Contribution Guidelines**](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
+> 
+> -   [Introduction Video: Open Documentation Initiative](https://www.youtube.com/watch?v=DwxrZ6ET3Yc)
+> -   [Blog Post: **Introducing the Open Documentation Initiative**](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/)
 
 
 

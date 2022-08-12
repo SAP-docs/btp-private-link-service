@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-private-link-service)](https://api.reuse.software/info/github.com/SAP-docs/btp-private-link-service)
 
-# Contributions to SAP Private Link Service (Beta) Documentation
+# Contributions to SAP Private Link Service Documentation
 
 Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable are added to our [official documentation on SAP Help Portal](https://help.sap.com/products/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3eb3bc7aa5db4b5da9dcdbf8ee478e52.html?version=CLOUD). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
 
@@ -11,9 +11,9 @@ For contributions, it's required that you have a GitHub account. For more inform
 
 ## Contributing
 
-We recommend using the [SAP Private Link service (beta) documentation](https://help.sap.com/products/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3eb3bc7aa5db4b5da9dcdbf8ee478e52.html?version=CLOUD) on SAP Help Portal as a starting point for contributions:
+We recommend using the [SAP Private Link service documentation](https://help.sap.com/products/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3eb3bc7aa5db4b5da9dcdbf8ee478e52.html?version=CLOUD) on SAP Help Portal as a starting point for contributions:
 
-1. Open the [SAP Private Link service (beta) documentation](https://help.sap.com/products/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3eb3bc7aa5db4b5da9dcdbf8ee478e52.html?version=CLOUD).
+1. Open the [SAP Private Link service documentation](https://help.sap.com/products/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3eb3bc7aa5db4b5da9dcdbf8ee478e52.html?version=CLOUD).
 1. You can either:
     * Choose *Edit* to suggest a change for the current page you see in the Help Portal viewer, or
     * Choose *Feedback* to open a GitHub issue in this repository.
