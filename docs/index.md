@@ -1,6 +1,7 @@
 # SAP Private Link Service
 
 -   [What Is SAP Private Link Service?](what-is-sap-private-link-service-3eb3bc7.md)
+-   [What's New for SAP Private Link Service](what-s-new-for-sap-private-link-service-058484a.md)
 -   [Concepts](concepts-6c7c8a9.md)
 -   [Initial Setup](initial-setup-f2dce1d.md)
 -   [Using SAP Private Link Service](using-sap-private-link-service/using-sap-private-link-service-3672119.md)

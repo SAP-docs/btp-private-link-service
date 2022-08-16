@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
--   You have set up your global account and subaccount on SAP BTP. For an overview of the required steps, see [Getting started in the Cloud Foundry Environment](loio56440ab2380041e092c29baf2893ef97).
+-   You have set up your global account and subaccount on SAP BTP. For an overview of the required steps, see [**Getting Started in the Cloud Foundry Environment**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b328cc89ea14484d9655b8cfb8efb508.html?locale=en-US&version=Cloud).
 
 -   You have configured entitlements for the Private Link service in your subaccount. See [**Configure Entitlements and Quotas for Subaccounts**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5ba357b4fa1e4de4b9fcc4ae771609da.html)
 
