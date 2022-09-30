@@ -18,7 +18,7 @@ If you are running your applications or services on SAP BTP and you want to comm
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
-> -   <span class="SAP-icons"></span> Edit : Contribute to a document in the guide. This option opens a pull request on GitHub.
+> -   :pencil2: : Contribute to a document in the guide. This option opens a pull request on GitHub.
 > 
 > -   <span class="SAP-icons"></span> Feedback: Provide feedback about a document in the guide. This option opens an issue on GitHub.
 > 

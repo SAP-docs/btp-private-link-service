@@ -8,32 +8,18 @@ Consume Azure Private Link service with SAP Private Link service.
 
 <a name="loioe8bc0c6440834a47a0ff57cb4efc0dc2__section_nzf_fyn_nrb"/>
 
-## Request Reference
+## Creation Request
 
-The following Cloud Foundry service specific configuration parameters are supported during a service instance creation:
-
-> ### Sample Code:  
-> ```
-> 
-> {
->     "resourceId": "/subscriptions/<subscription>/resourceGroups/<rg>/providers/Microsoft.Network/privateLinkServices/<my-private-link-service>",
->     "requestMessage": "request message"
-> }
-> 
-> ```
+The following Cloud Foundry service-specific configuration parameters are supported during a service instance creation:
 
 
-
-<a name="loioe8bc0c6440834a47a0ff57cb4efc0dc2__section_osr_3yn_nrb"/>
-
-## Parameters
 
 
 <table>
 <tr>
 <td valign="top">
 
-*resourceID* \(required\)
+*resourceId* \(required\)
 
 
 
@@ -80,33 +66,11 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 <a name="loioe8bc0c6440834a47a0ff57cb4efc0dc2__section_kpl_jyn_nrb"/>
 
-## Binding Reference
+## Binding Credentials
 
 The following binding credentials are provided:
 
-> ### Sample Code:  
-> ```
-> 
-> {
->     ...
->     "privatelink": [
->         {
->             ...
->             "credentials": {
->                 "hostname": "<private link hostname>", 
->                 "additionalHostname": "<private link additional hostname>"
->             }
->         }
->     ]
-> }
-> 
-> ```
 
-
-
-<a name="loioe8bc0c6440834a47a0ff57cb4efc0dc2__section_qtm_jyn_nrb"/>
-
-## Credentials
 
 
 <table>

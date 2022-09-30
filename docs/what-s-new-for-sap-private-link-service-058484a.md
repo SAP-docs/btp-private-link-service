@@ -99,6 +99,80 @@ SAP Private Link
 </td>
 <td valign="top">
 
+Additional Azure services available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports the following Azure services on SAP BTP Cloud Foundry regions running on Azure:
+
+• [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md)
+
+• [Azure Key Vault](using-sap-private-link-service/azure-key-vault-407fb19.md) 
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+2022-09-23
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 General Availability
 
 
@@ -234,4 +308,7 @@ Not applicable
 </td>
 </tr>
 </table>
+
+-   **[2021 What's New for SAP Private Link Service](2021-what-s-new-for-sap-private-link-service-61fa6a0.md)**  
+
 

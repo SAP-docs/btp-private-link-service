@@ -8,33 +8,16 @@ Consume Azure Database for MySQL with SAP Private Link service.
 
 <a name="loio5c70499ee70b415d954145a795e43355__section_pxv_fb4_nrb"/>
 
-## Request Reference
+## Creation Request
 
-The following Cloud Foundry service specific configuration parameters are supported during a service instance creation:
-
-> ### Sample Code:  
-> ```
-> 
-> {
->     "resourceId": "/subscriptions/<subscription>/resourceGroups/<rg>/providers/Microsoft.DBforMySQL/servers/<my-mysql>",
->     "subResource": "mysqlServer",
->     "requestMessage": "request message"
-> }
-> 
-> ```
-
-
-
-<a name="loio5c70499ee70b415d954145a795e43355__section_uxk_gb4_nrb"/>
-
-## Parameters
+The following Cloud Foundry service-specific configuration parameters are supported during a service instance creation:
 
 
 <table>
 <tr>
 <td valign="top">
 
-*resourceID* \(required\)
+*resourceId* \(required\)
 
 
 
@@ -98,32 +81,9 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 <a name="loio5c70499ee70b415d954145a795e43355__section_lql_gb4_nrb"/>
 
-## Binding Reference
+## Binding Credentials
 
 The following binding credentials are provided:
-
-> ### Sample Code:  
-> ```
-> 
-> {
->     ...
->     "privatelink": [
->         {
->             ...
->             "credentials": {
->                 "hostname": "<private link hostname>", 
->             }
->         }
->     ]
-> }
-> 
-> ```
-
-
-
-<a name="loio5c70499ee70b415d954145a795e43355__section_b3m_gb4_nrb"/>
-
-## Credentials
 
 -   *hostname*: DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
 

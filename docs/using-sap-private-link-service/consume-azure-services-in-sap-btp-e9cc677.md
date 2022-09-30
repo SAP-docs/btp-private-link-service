@@ -39,6 +39,13 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure Database for MySQL](azure-database-for-mysql-5c70499.md)
 
+-   
+
+-   [Azure Key Vault](azure-key-vault-407fb19.md)
+
+
+> ### Note:  
+> If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
 
 
 
@@ -54,4 +61,9 @@ Consume Azure Private Link service with SAP Private Link service.
 Consume Azure Database for MariaDB with SAP Private Link service.
 -   **[Azure Database for MySQL](azure-database-for-mysql-5c70499.md "Consume Azure Database for MySQL with SAP Private Link service . ")**  
 Consume Azure Database for MySQL with SAP Private Link service.
+-   **[Azure Key Vault](azure-key-vault-407fb19.md "Consume Azure KeyVault and Azure Keyvault ManagedHSM with SAP Private Link
+			service.")**  
+Consume Azure KeyVault and Azure Keyvault ManagedHSM with SAP Private Link service.
+-   **[Azure Cosmos DB](azure-cosmos-db-663ed56.md "Consume Cosmos DB with SAP Private Link service.")**  
+Consume Cosmos DB with SAP Private Link service.
 

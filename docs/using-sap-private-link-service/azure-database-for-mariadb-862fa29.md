@@ -8,20 +8,9 @@ Consume Azure Database for MariaDB with SAP Private Link service.
 
 <a name="loio862fa2958c574c3cbfa12a927ce1d5fe__section_brl_k14_nrb"/>
 
-## Request Reference
+## Creation Request
 
-The following Cloud Foundry service specific configuration parameters are supported during a service instance creation:
-
-> ### Sample Code:  
-> ```
-> 
-> {
->     "resourceId": "/subscriptions/<subscription>/resourceGroups/<rg>/providers/Microsoft.DBForMariaDB/servers/<my-maria-db>",
->     "subResource": "mariadbServer",
->     "requestMessage": "request message"
-> }
-> 
-> ```
+The following Cloud Foundry service-specific configuration parameters are supported during a service instance creation:
 
 
 
@@ -34,7 +23,7 @@ The following Cloud Foundry service specific configuration parameters are suppor
 <tr>
 <td valign="top">
 
-*resourceID* \(required\)
+*resourceId* \(required\)
 
 
 
@@ -98,32 +87,9 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 <a name="loio862fa2958c574c3cbfa12a927ce1d5fe__section_exj_l14_nrb"/>
 
-## Binding Reference
+## Binding Credentials
 
 The following binding credentials are provided:
-
-> ### Sample Code:  
-> ```
-> 
-> {
->     ...
->     "privatelink": [
->         {
->             ...
->             "credentials": {
->                 "hostname": "<private link hostname>", 
->             }
->         }
->     ]
-> }
-> 
-> ```
-
-
-
-<a name="loio862fa2958c574c3cbfa12a927ce1d5fe__section_kqk_l14_nrb"/>
-
-## Credentials
 
 -   *hostname*: DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
 

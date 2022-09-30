@@ -295,5 +295,75 @@ Please recreate the service instance and try again. For more information, see [T
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+No CosmosDB regions specified, please specify all regions your CosmosDB instance is replicated to in the creation parameters.
+
+
+
+</td>
+<td valign="top">
+
+You are creating a private link to an Azure CosmosDB and did not specify its regions. Creating such a private link requires the CosmosDB regions to be explicitly specified.Please specify all regions during creation, see [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CosmosDB replication region 'invalidregion' unknown.
+
+
+
+</td>
+<td valign="top">
+
+You are creating a private link to an Azure CosmosDB and specified an invalid region. The SAP Private Link service will validate all region names against a static list.
+
+Please specify only valid regions during creation. See [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CosmosDB replication region "eastus2" has been specified multiple times. Please specify every region the CosmosDB is geo-replicated to only once.
+
+
+
+</td>
+<td valign="top">
+
+You are creating a private link to an Azure CosmosDB and specified a region multiple times.
+
+Please specify each region only once, see [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CosmosDB requires all configured regions to be explicitly specified in the creation parameters. At last one region is missing from the creation parameters.
+
+
+
+</td>
+<td valign="top">
+
+You are creating a private link to an Azure CosmosDB and specified some regions, but at least one is missing.
+
+Please specify all regions of the CosmosDB, see [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md).
+
+
+
+</td>
+</tr>
 </table>
 
