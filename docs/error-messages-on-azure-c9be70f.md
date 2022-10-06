@@ -365,5 +365,55 @@ Please specify all regions of the CosmosDB, see [Azure Cosmos DB](using-sap-priv
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure reported the following message: Call to Microsoft.Web/sites failed. Error message: SkuCode 'Free' is invalid.
+
+
+
+</td>
+<td valign="top">
+
+You specified an Application/Function that runs on a tier that does not support private endpoints.
+
+Consult the [Azure documentation](https://docs.microsoft.com/en-us/azure/app-service/networking/private-endpoint) to see which tier supports private endpoints
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Gateway does not support PrivateLink on V1 SKUs. Please switch to one of the V2 SKUs.
+
+
+
+</td>
+<td valign="top">
+
+The Application Gateway only works with the `V2` SKUs. Please switch to one of the `V2` SKUs.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Gateway does not have a Private link configuration set or the required feature is not registered in target subscription. Please configure a Private link configuration in the target Application Gateway and register the feature "Microsoft.Network/AllowApplicationGatewayPrivateLink" in the target subscription.
+
+
+
+</td>
+<td valign="top">
+
+Using PrivateLink with an Azure Application Gateway requires the mentioned feature to be registered as well as a Private link configuration to be set. Please register the feature and [configure a Private link configuration](https://docs.microsoft.com/en-us/azure/application-gateway/private-link-configure) in the target.
+
+
+
+</td>
+</tr>
 </table>
 

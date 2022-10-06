@@ -12,6 +12,8 @@
         -   [Azure Database for MySQL](using-sap-private-link-service/azure-database-for-mysql-5c70499.md)
         -   [Azure Key Vault](using-sap-private-link-service/azure-key-vault-407fb19.md)
         -   [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md)
+        -   [Azure App Service or Azure Functions](using-sap-private-link-service/azure-app-service-or-azure-functions-d5f96f9.md)
+        -   [Azure Application Gateway \(Beta\)](using-sap-private-link-service/azure-application-gateway-beta-af86a45.md)
 -   [Security](security-3195b1f.md)
     -   [Best Practices for Secure Endpoint Approval on Azure](best-practices-for-secure-endpoint-approval-on-azure-844bca7.md)
 -   [Monitoring and Troubleshooting](monitoring-and-troubleshooting-56fe014.md)

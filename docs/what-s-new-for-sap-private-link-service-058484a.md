@@ -76,6 +76,20 @@ Modular Business Process
 </th>
 <th valign="top">
 
+Product
+
+
+
+</th>
+<th valign="top">
+
+Latest Revision
+
+
+
+</th>
+<th valign="top">
+
 Available as of
 
 
@@ -108,7 +122,92 @@ Additional Azure services available on SAP BTP Cloud Foundry regions
 
 The SAP Private Link service now also supports the following Azure services on SAP BTP Cloud Foundry regions running on Azure:
 
-• [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md)
+-    [Azure App Service or Azure Functions](using-sap-private-link-service/azure-app-service-or-azure-functions-d5f96f9.md) 
+-    [Azure Application Gateway \(Beta\)](using-sap-private-link-service/azure-application-gateway-beta-af86a45.md) 
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+2022-10-06
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Azure services available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports the following Azure services on SAP BTP Cloud Foundry regions running on Azure:
+
+• [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md) 
 
 • [Azure Key Vault](using-sap-private-link-service/azure-key-vault-407fb19.md) 
 
@@ -144,6 +243,18 @@ Technology
 <td valign="top">
 
 Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
 
 
 
@@ -216,6 +327,18 @@ Technology
 <td valign="top">
 
 Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
 
 
 
@@ -295,6 +418,18 @@ Technology
 <td valign="top">
 
 Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
 
 
 

@@ -66,4 +66,9 @@ Consume Azure Database for MySQL with SAP Private Link service.
 Consume Azure KeyVault and Azure Keyvault ManagedHSM with SAP Private Link service.
 -   **[Azure Cosmos DB](azure-cosmos-db-663ed56.md "Consume Cosmos DB with SAP Private Link service.")**  
 Consume Cosmos DB with SAP Private Link service.
+-   **[Azure App Service or Azure Functions](azure-app-service-or-azure-functions-d5f96f9.md "Consume Azure App Service or Azure Functions with SAP Private Link
+			service.")**  
+Consume Azure App Service or Azure Functions with SAP Private Link service.
+-   **[Azure Application Gateway \(Beta\)](azure-application-gateway-beta-af86a45.md "Consume Azure Application Gateway with SAP Private Link service. ")**  
+Consume Azure Application Gateway with SAP Private Link service.
 
