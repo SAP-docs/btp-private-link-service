@@ -120,6 +120,88 @@ Additional Azure services available on SAP BTP Cloud Foundry regions
 </td>
 <td valign="top">
 
+The SAP Private Link service now also supports [Azure Automation](using-sap-private-link-service/azure-automation-8064b46.md) on SAP BTP Cloud Foundry regions running on Azure.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+2022-10-20
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Azure services available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
 The SAP Private Link service now also supports the following Azure services on SAP BTP Cloud Foundry regions running on Azure:
 
 -    [Azure App Service or Azure Functions](using-sap-private-link-service/azure-app-service-or-azure-functions-d5f96f9.md) 

@@ -33,15 +33,19 @@ To privately access a service in your Azure subcription, SAP Private Link servic
 
 The following Azure services can currently be consumed from SAP BTP:
 
--   [Azure Private Link Service](azure-private-link-service-e8bc0c6.md)
+-   [Azure Private Link Service \(generic LB scenario for VMs and others\)](azure-private-link-service-generic-lb-scenario-for-vms-and-others-e8bc0c6.md)
 
 -   [Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md)
 
 -   [Azure Database for MySQL](azure-database-for-mysql-5c70499.md)
 
--   
-
 -   [Azure Key Vault](azure-key-vault-407fb19.md)
+
+-   [Azure CosmosDB](azure-cosmos-db-663ed56.md)
+
+-   [Azure App Service or Azure Functions](azure-app-service-or-azure-functions-d5f96f9.md)
+
+-   [Azure Automation](azure-automation-8064b46.md)
 
 
 > ### Note:  
@@ -55,7 +59,7 @@ The following Azure services can currently be consumed from SAP BTP:
 
 To learn how to connect the SAP Private Link service to Microsoft Azure, see [Connect SAP Private Link Service to Microsoft Azure Private Link Service with Cloud Foundry CLI](https://developers.sap.com/tutorials/private-link-microsoft-azure.html).
 
--   **[Azure Private Link Service](azure-private-link-service-e8bc0c6.md "Consume Azure Private Link service with SAP Private Link service . ")**  
+-   **[Azure Private Link Service \(generic LB scenario for VMs and others\)](azure-private-link-service-generic-lb-scenario-for-vms-and-others-e8bc0c6.md "Consume Azure Private Link service with SAP Private Link service . ")**  
 Consume Azure Private Link service with SAP Private Link service.
 -   **[Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md "Consume Azure Database for MariaDB with SAP Private Link service . ")**  
 Consume Azure Database for MariaDB with SAP Private Link service.
@@ -71,4 +75,6 @@ Consume Cosmos DB with SAP Private Link service.
 Consume Azure App Service or Azure Functions with SAP Private Link service.
 -   **[Azure Application Gateway \(Beta\)](azure-application-gateway-beta-af86a45.md "Consume Azure Application Gateway with SAP Private Link service. ")**  
 Consume Azure Application Gateway with SAP Private Link service.
+-   **[Azure Automation](azure-automation-8064b46.md "Consume Azure Automation with SAP Private Link service.")**  
+Consume Azure Automation with SAP Private Link service.
 

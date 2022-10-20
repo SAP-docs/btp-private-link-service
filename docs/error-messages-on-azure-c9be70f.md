@@ -377,7 +377,7 @@ Microsoft Azure reported the following message: Call to Microsoft.Web/sites fail
 
 You specified an Application/Function that runs on a tier that does not support private endpoints.
 
-Consult the [Azure documentation](https://docs.microsoft.com/en-us/azure/app-service/networking/private-endpoint) to see which tier supports private endpoints
+Consult the [Azure documentation](https://docs.microsoft.com/en-us/azure/app-service/networking/private-endpoint) to see which tier supports private endpoints.
 
 
 
@@ -410,6 +410,22 @@ Application Gateway does not have a Private link configuration set or the requir
 <td valign="top">
 
 Using PrivateLink with an Azure Application Gateway requires the mentioned feature to be registered as well as a Private link configuration to be set. Please register the feature and [configure a Private link configuration](https://docs.microsoft.com/en-us/azure/application-gateway/private-link-configure) in the target.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure reported the following message: Call to Microsoft.DocumentDB/databaseAccounts failed. Error message: GroupId "groupID" is not supported.
+
+
+
+</td>
+<td valign="top">
+
+You are trying to create a private endpoint for a subResource to a CosmosDB instance which is not supported. For example, the "CosmosDB for MongoDB" does only support subResource `MongoDB` \(and not the others\), "CosmosDB for Cassandra" only `Cassandra` etc.
 
 
 
