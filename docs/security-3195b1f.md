@@ -57,4 +57,6 @@ For general information about data protection and privacy on SAP BTP, see the SA
 -   **[Best Practices for Secure Endpoint Approval on Azure](best-practices-for-secure-endpoint-approval-on-azure-844bca7.md "Learn about recommended secure approval processes when establishing a connection via
 			Private Link service .")**  
 Learn about recommended secure approval processes when establishing a connection via Private Link service.
+-   **[Best Practices for Secure Endpoint Approval on AWS](best-practices-for-secure-endpoint-approval-on-aws-e045588.md "")**  
+
 

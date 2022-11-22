@@ -402,7 +402,7 @@ The Application Gateway only works with the `V2` SKUs. Please switch to one of t
 <tr>
 <td valign="top">
 
-Application Gateway does not have a Private link configuration set or the required feature is not registered in target subscription. Please configure a Private link configuration in the target Application Gateway and register the feature "Microsoft.Network/AllowApplicationGatewayPrivateLink" in the target subscription.
+Application Gateway does not have a Private link configuration with a Frontend IP configuration with the given name set or the required feature is not registered in target subscription. Please configure a Private link configuration for the given Frontend IP Configuration in the target Application Gateway and register the feature "Microsoft.Network/AllowApplicationGatewayPrivateLink" in the target subscription. Make sure that the given subResource matches the name of the Frontend IP Configuration configured for the Private link configuration you want to connect to.
 
 
 
@@ -410,6 +410,8 @@ Application Gateway does not have a Private link configuration set or the requir
 <td valign="top">
 
 Using PrivateLink with an Azure Application Gateway requires the mentioned feature to be registered as well as a Private link configuration to be set. Please register the feature and [configure a Private link configuration](https://docs.microsoft.com/en-us/azure/application-gateway/private-link-configure) in the target.
+
+Additionally, the name of the Frontend IP Configuration that has a Private link configuration assigned must be used as subResource, please make sure that the given subResource is a valid Frontend IP Configuration name that has a Private link configuration assigned.
 
 
 

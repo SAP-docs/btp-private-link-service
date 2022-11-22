@@ -43,7 +43,7 @@ Identifies the resource on Azure the private link should be created for.
 </td>
 <td valign="top">
 
-Identifies the subresource on Azure the private link should be created for. Must be `appGwPrivateFrontendIp` or `appGwPublicFrontendIp`.
+Identifies the subresource on Azure the private link should be created for. This has to be the user-defined name of the <code><i>Frontend IP Configuration</i></code> of the <code><i>Private link configuration</i></code> the connection should be created for.
 
 
 
@@ -71,7 +71,7 @@ Specifies a message which is shown for the approval request on Azure for the spe
 > ```
 > {
 >     "resourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.Network/applicationGateways/myAppGw",
->     "subResource": "appGwPrivateFrontendIp",
+>     "subResource": "myFrontendIPConfig",
 >     "requestMessage": "Please approve connection"
 > }
 > ```
@@ -89,7 +89,7 @@ The following binding credentials are provided:
 <tr>
 <td valign="top">
 
-*hostname*
+ *hostname*
 
 
 
@@ -105,7 +105,7 @@ Private DNS entry to connect to the Azure resource.
 <tr>
 <td valign="top">
 
-*additionalHostname*
+ *additionalHostname* 
 
 
 

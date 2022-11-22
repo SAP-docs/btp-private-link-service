@@ -6,7 +6,7 @@
 
 
 
-<a name="loio058484a825da48238604155ffc82de54__wnv_table"/>2022
+**2022**
 
 
 <table>
@@ -113,6 +113,90 @@ SAP Private Link
 </td>
 <td valign="top">
 
+SAP Private Link Service on Amazon Web Services \(Beta\) in SAP BTP
+
+
+
+</td>
+<td valign="top">
+
+With this beta release, SAP Private Link service lets you consume selected Amazon Web Services \(AWS\) in your own AWS subscriptions in SAP BTP. For more information, see [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2022-11-22
+
+
+
+</td>
+<td valign="top">
+
+2022-11-22
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Additional Azure services available on SAP BTP Cloud Foundry regions
 
 
@@ -120,7 +204,7 @@ Additional Azure services available on SAP BTP Cloud Foundry regions
 </td>
 <td valign="top">
 
-The SAP Private Link service now also supports [Azure Automation](using-sap-private-link-service/azure-automation-8064b46.md) on SAP BTP Cloud Foundry regions running on Azure.
+The SAP Private Link service now also supports [Azure Automation](https://help.sap.com/docs/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/8064b46e99d140d8b38c1ac7f12aa513.html?locale=en-US&version=CLOUD) on SAP BTP Cloud Foundry regions running on Azure.
 
 
 
