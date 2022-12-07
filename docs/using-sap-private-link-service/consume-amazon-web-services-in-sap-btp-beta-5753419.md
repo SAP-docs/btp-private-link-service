@@ -54,7 +54,7 @@ The following Amazon Web Services can currently be consumed from SAP BTP:
 
 ## Tutorial
 
-To learn how to connect the SAP Private Link service to Amazon Web Services, see [Connect SAP Private Link Service to AWS PrivateLink Service](https://developers-qa-blue.wcms-nonprod.c.eu-de-2.cloud.sap/tutorials/private-link-aws.html) .
+To learn how to connect the SAP Private Link service to Amazon Web Services, see [Connect SAP Private Link Service to AWS Private Link Service](https://developers.sap.com/tutorials/private-link-aws.html) .
 
 To learn how to set up SAP Private Link service on Amazon Web Services \(Beta\), see [Set Up SAP Private Link Service on Amazon Web Services \(Beta\)](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html).
 
@@ -74,4 +74,6 @@ Consume Amazon Simple Email Service \(SES\) with SAP Private Link service.
 -   **[Amazon Relational Database Service \(RDS\) - Aurora Data API](amazon-relational-database-service-rds-aurora-data-api-cf3528f.md "Consume Amazon Relational Database Service (RDS) - Aurora DATA API with SAP
 			Private Link service.")**  
 Consume Amazon Relational Database Service \(RDS\) - Aurora DATA API with SAP Private Link service.
+-   **[Amazon Lambda](amazon-lambda-45e272a.md "Consume Amazon Lambda with SAP Private Link service.")**  
+Consume Amazon Lambda with SAP Private Link service.
 

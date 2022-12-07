@@ -111,7 +111,7 @@ Please find a sample app demonstrating the necessary configuration of the AWS SD
 
 ## Known Limitations
 
--   Be aware that the Aurora Data API only allows interacting with the HTTPS API. It does **not** allow interacting with the regular SQL API. Neither SAP nor AWS offers a supported way to connect to the RDS SQL listener over Private Link.
+-   Be aware that the Aurora Data API only allows interacting with the HTTPS API. It does **not** allow interacting with the regular SQL API. Neither SAP nor AWS offers a supported way to connect to the RDS SQL listener over Private Link, but there [are some community articles](https://blog.andreev.it/?p=9118) leveraging AWS Endpoint Service to achieve it.
 
 -   The Data API is only supported for [Aurora Serverless v1](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html), not v2.
 

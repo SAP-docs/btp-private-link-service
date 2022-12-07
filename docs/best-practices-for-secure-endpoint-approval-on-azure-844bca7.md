@@ -12,9 +12,6 @@ Learn about recommended secure approval processes when establishing a connection
 
 To establish a connection from SAP BTP to an Azure service running in your Azure subscription, each connection request has to be approved by the service owner in the Azure portal.
 
-> ### Caution:  
-> Anyone in possession of your resource ID can create connection requests to your services, not only from SAP BTP side, but also from every Azure subscription. Therefore, it's crucial that the person approving such connection requests only approves connections from a trustworthy requestor, such as, for example, another company member who requested the private link in SAP BTP.
-
 
 
 <a name="loio844bca7a51f04a15be865b9a6c1867b0__section_z43_kb1_wrb"/>
@@ -22,6 +19,31 @@ To establish a connection from SAP BTP to an Azure service running in your Azure
 ## Secure Approval
 
 Consider the following recommendations for secure approvals.
+
+
+
+### **Only allow requests from SAP BTP CF's Azure subscription**
+
+You can configure Azure Private Link Service so that only consumers from allowlisted Azure subscriptions can even create requests.
+
+We strongly recommend to set this setting by executing the following steps:
+
+1.  In the Azure Portal navigate to your Private Link service.
+
+2.  Navigate to *Access security*.
+
+3.  Under *Who can request access to your service?* select *Restricted by subscription*.
+
+4.  Click *Add Subscription* and add the SAP BTP CF's subscription IDs for the landscape where your Private Link service should be consumed from.
+
+    A current list of subscription IDs can be found in <https://me.sap.com/systemsprovisioning/connectivity\>.
+
+5.  Hit *OK* and then *Save*.
+
+
+With this protection in place, only the approved SAP BTP CF subscriptions can create approval requests to your Azure Private Link service in the first place.
+
+You still need to make sure you follow the steps below to only approve benign requests from within SAP BTP:
 
 
 

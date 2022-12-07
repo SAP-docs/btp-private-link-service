@@ -5,7 +5,7 @@
 Consume Azure Application Gateway with SAP Private Link service.
 
 > ### Note:  
-> Private Link support for Azure Application Gateway is still in **Public Preview** at Azure. You will have to register a feature \(see below\) to use it and [Azure's supplemental terms](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) apply. Since the functionality provided by Azure may change and/or break at any time, the SAP Private Link service currently considers support for the Azure Application Gateway as Beta and only supports connections to the Azure Application Gateway for non-productive scenarios.
+> Private Link support for Azure Application Gateway is still in **Public Preview** at Azure. [Azure's supplemental terms](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) apply. Since the functionality provided by Azure may change or break at any time, the SAP Private Link service currently considers support for the Azure Application Gateway as Beta and only supports connections to the Azure Application Gateway for non-productive scenarios.
 
 
 
@@ -96,7 +96,7 @@ The following binding credentials are provided:
 </td>
 <td valign="top">
 
-Private DNS entry to connect to the Azure resource.
+DNS entry to connect to the Azure resource.
 
 
 
@@ -155,7 +155,15 @@ Please refer to the [documentation of the Private Link service](https://github.t
 
 ## Known Limitations
 
--   [Private Link support for Azure Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/private-link-configure), is still in Public preview. The feature `Microsoft.Network/AllowApplicationGatewayPrivateLink` has to be enabled for the subscription that contains the Azure Application Gateway.
-
 -   Azure Application Gateway requires a `V2` SKU to work with PrivateLink. The `V1` SKUs do not work with PrivateLink.
+
+
+
+<a name="loioaf86a457ffd84324a6691c6ea1649dd6__section_jjt_r4c_svb"/>
+
+## Tutorials
+
+Martin Pankraz published a blog post outlining the steps how set up an Application Gateway and consume it via SAP Private Link:
+
+[SAP private linky swear with Azure – to WAF or not to WAF with SAP Private Link](https://blogs.sap.com/2022/11/30/sap-private-linky-swear-with-azure-to-waf-or-not-to-waf%F0%9F%90%B6-with-sap-private-link/)
 

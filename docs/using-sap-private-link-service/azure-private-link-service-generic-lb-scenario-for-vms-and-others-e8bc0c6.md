@@ -183,3 +183,14 @@ If it’s not possible or desired to sign and install TLS certificates for inter
 
 This approach allows you to use your existing DNS & TLS certificate procedures together with service instances provided by SAP Private Link service.
 
+
+
+<a name="loioe8bc0c6440834a47a0ff57cb4efc0dc2__section_qfq_qtx_svb"/>
+
+## Tutorials
+
+-   Martin Pankraz published a blog post outlining the steps how set up an Azure Private Link service and consume it via SAP Private Link: [Whatever happens in an Azure and SAP private linky swear, stays in the linky swear! An implementation story of the SAP Private Link Service for Azure.](https://blogs.sap.com/2021/07/02/whatever-happens-in-an-azure-and-btp-private-linky-swear-stays-in-the-linky-swear/)
+
+-   Martin Pankraz also published a blog post how to use self-signed certificates to enable end-to-end TLS: [SAP private linky swear with Azure – how to setup SSL end-to-end with SAP Private Link Service](https://blogs.sap.com/2021/12/01/btp-private-linky-swear-with-azure-how-to-setup-ssl-end-to-end-with-private-link-service/)
+
+

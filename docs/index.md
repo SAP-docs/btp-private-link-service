@@ -22,6 +22,7 @@
         -   [Amazon Simple Notification Service \(SNS\)](using-sap-private-link-service/amazon-simple-notification-service-sns-a0ba5f2.md)
         -   [Amazon Simple Email Service \(SES\)](using-sap-private-link-service/amazon-simple-email-service-ses-a6d40f2.md)
         -   [Amazon Relational Database Service \(RDS\) - Aurora Data API](using-sap-private-link-service/amazon-relational-database-service-rds-aurora-data-api-cf3528f.md)
+        -   [Amazon Lambda](using-sap-private-link-service/amazon-lambda-45e272a.md)
 -   [Security](security-3195b1f.md)
     -   [Best Practices for Secure Endpoint Approval on Azure](best-practices-for-secure-endpoint-approval-on-azure-844bca7.md)
     -   [Best Practices for Secure Endpoint Approval on AWS](best-practices-for-secure-endpoint-approval-on-aws-e045588.md)

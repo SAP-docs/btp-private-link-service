@@ -131,3 +131,13 @@ The following binding credentials are provided:
 >  }
 > ```
 
+
+
+<a name="loio407fb1909cbf46058d47937802a1fa2b__section_t2g_mtx_svb"/>
+
+## Sample Applications
+
+There is no custom configuration needed for your application to consume the Azure Key Vault via Private Link.
+
+You can follow any tutorial using the Azure SDK for the language of your choice.
+

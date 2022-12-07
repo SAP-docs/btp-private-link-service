@@ -122,3 +122,13 @@ The following binding credentials are provided:
 > ### Note:  
 > `Basic` version of MariaDB is not supported since it does not allow Private Endpoints creation. All supported versions can be found in the official [Azure Database for MariaDB documentation](https://docs.microsoft.com/en-us/azure/mariadb/concepts-limits#vnet-service-endpoints).
 
+
+
+<a name="loio862fa2958c574c3cbfa12a927ce1d5fe__section_nnj_gmx_svb"/>
+
+## Sample Applications
+
+There is no custom configuration needed to connect to the MariaDB server via SAP Private Link.
+
+Just use a MariaDB client library of your choice and configure it to use the hostname from the service binding \(and of course, username, password and any other settings\).
+

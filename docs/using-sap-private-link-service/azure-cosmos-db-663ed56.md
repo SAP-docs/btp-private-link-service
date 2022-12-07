@@ -133,3 +133,13 @@ The following binding credentials are provided:
 -   If a region is removed from the Cosmos DB with an existing private endpoint, the regional endpoint of this region will no longer work. However, the existing endpoints \(global and in other regions\) will continue to work.
 -   If an additional region is added to a Cosmos DB, the endpoint for the new region will not automatically become available on the private endpoint. To make the endpoint of the additional region available, a new service instance must be created.
 
+
+
+<a name="loio663ed5631cfd4ef0a4bd89ca00266943__section_n4f_bmx_svb"/>
+
+## Sample Applications
+
+There is no custom configuration needed for your application to consume the Azure CosmosDB via Private Link.
+
+You can follow any tutorial using a suitable client library for the language of your choice.
+

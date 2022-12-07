@@ -182,3 +182,13 @@ Private DNS entry to connect to the JRDS endpoint of the Azure resource.
 
 -   The Azure API to create Private Endpoints to Azure Automation silently ignores the `requestMessage` field and always displays "Please approve my connection" when listing connection requests. The SAP Private Link service does not have a workaround for this issue.
 
+
+
+<a name="loio8064b46e99d140d8b38c1ac7f12aa513__section_kjk_5lx_svb"/>
+
+## Sample Applications
+
+There is no custom configuration needed for your application to consume the Azure Automation Account via Private Link.
+
+You can follow any tutorial using the Azure SDK for the language of your choice.
+
