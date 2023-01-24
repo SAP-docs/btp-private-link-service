@@ -15,6 +15,7 @@
         -   [Azure App Service or Azure Functions](using-sap-private-link-service/azure-app-service-or-azure-functions-d5f96f9.md)
         -   [Azure Application Gateway \(Beta\)](using-sap-private-link-service/azure-application-gateway-beta-af86a45.md)
         -   [Azure Automation](using-sap-private-link-service/azure-automation-8064b46.md)
+        -   [Azure Machine Learning](using-sap-private-link-service/azure-machine-learning-3421f1f.md)
     -   [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md)
         -   [AWS Endpoint Service](using-sap-private-link-service/aws-endpoint-service-6d1453b.md)
         -   [Amazon S3](using-sap-private-link-service/amazon-s3-b7b0e39.md)

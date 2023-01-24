@@ -77,4 +77,6 @@ Consume Azure App Service or Azure Functions with SAP Private Link service.
 Consume Azure Application Gateway with SAP Private Link service.
 -   **[Azure Automation](azure-automation-8064b46.md "Consume Azure Automation with SAP Private Link service.")**  
 Consume Azure Automation with SAP Private Link service.
+-   **[Azure Machine Learning](azure-machine-learning-3421f1f.md "Consume Azure Machine Learning with SAP Private Link service.")**  
+Consume Azure Machine Learning with SAP Private Link service.
 

@@ -56,7 +56,7 @@ Identifies the sub-resource on Azure the private link should be created for. Mus
 </td>
 <td valign="top">
 
-The regions of the Cosmos DB. This information can be found under *Read Locations* or *Write Locations* in the overview of the Cosmos DB in the Azure Portal. Must be in the region ID format which can be retrieved via `az account list-locations -o table`.
+A list of *all* regions the CosmosDB is running in. This information can be found under *Read Locations* and *Write Locations* in the overview of the CosmosDB in the Azure Portal. Must be in the region ID format which can be retrieved via `az account list-locations -o table`.
 
 
 
