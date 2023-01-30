@@ -76,7 +76,27 @@ A JSON document specifying a [VPC endpoint policy](https://docs.aws.amazon.com/v
 
 The following binding credentials are provided:
 
--   *hostname*: Regional DNS hostname to connect to the AWS interface endpoint.
+****
+
+
+<table>
+<tr>
+<td valign="top">
+
+*hostname*
+
+
+
+</td>
+<td valign="top">
+
+Regional DNS hostname to connect to the AWS interface endpoint.
+
+
+
+</td>
+</tr>
+</table>
 
 > ### Sample Code:  
 > ```

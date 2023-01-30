@@ -45,6 +45,8 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure App Service or Azure Functions](azure-app-service-or-azure-functions-d5f96f9.md)
 
+-   [Azure Application Gateway \(Beta\)](azure-application-gateway-beta-af86a45.md)
+
 -   [Azure Automation](azure-automation-8064b46.md)
 
 
@@ -77,6 +79,4 @@ Consume Azure App Service or Azure Functions with SAP Private Link service.
 Consume Azure Application Gateway with SAP Private Link service.
 -   **[Azure Automation](azure-automation-8064b46.md "Consume Azure Automation with SAP Private Link service.")**  
 Consume Azure Automation with SAP Private Link service.
--   **[Azure Machine Learning](azure-machine-learning-3421f1f.md "Consume Azure Machine Learning with SAP Private Link service.")**  
-Consume Azure Machine Learning with SAP Private Link service.
 

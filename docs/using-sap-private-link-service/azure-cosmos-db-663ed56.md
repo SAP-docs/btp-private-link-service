@@ -100,9 +100,43 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 The following binding credentials are provided:
 
--   *hostname*: DNS entry to connect to the global endpoint of the Cosmos DB. This DNS entry resolves to the internal IP address associated with this private link.
+****
 
--   *regions*: Object containing DNS entries to connect to the regional endpoints of the Cosmos DB. The key of the object is the region ID, the value the FQDN of the regional Cosmos DB endpoint.
+
+<table>
+<tr>
+<td valign="top">
+
+*hostname*
+
+
+
+</td>
+<td valign="top">
+
+DNS entry to connect to the global endpoint of the Cosmos DB. This DNS entry resolves to the internal IP address associated with this private link.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*regions*
+
+
+
+</td>
+<td valign="top">
+
+Object containing DNS entries to connect to the regional endpoints of the Cosmos DB. The key of the object is the region ID, the value the FQDN of the regional Cosmos DB endpoint.
+
+
+
+</td>
+</tr>
+</table>
 
 > ### Sample Code:  
 > ```

@@ -49,8 +49,27 @@ In case of Amazon SES, the value is always in the form com.amazonaws<region\>.em
 
 The following binding credentials are provided:
 
--   *hostname*: Regional DNS hostname to connect to the AWS interface endpoint.
+****
 
+
+<table>
+<tr>
+<td valign="top">
+
+*hostname*
+
+
+
+</td>
+<td valign="top">
+
+Regional DNS hostname to connect to the AWS interface endpoint.
+
+
+
+</td>
+</tr>
+</table>
 
 > ### Sample Code:  
 > ```

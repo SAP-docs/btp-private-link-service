@@ -47,6 +47,7 @@ The following Amazon Web Services can currently be consumed from SAP BTP:
 
 -   [Amazon Relational Database Service \(RDS\) - Aurora Data API](amazon-relational-database-service-rds-aurora-data-api-cf3528f.md)
 
+-   [Amazon Lambda](amazon-lambda-45e272a.md)
 
 
 

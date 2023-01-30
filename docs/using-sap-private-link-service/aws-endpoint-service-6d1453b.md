@@ -70,7 +70,27 @@ This is a precautionary measure to ensure that the connection cannot accidentall
 
 The following binding credentials are provided:
 
--   *hostname:* Regional DNS hostname to connect to the AWS interface endpoint
+****
+
+
+<table>
+<tr>
+<td valign="top">
+
+*hostname*
+
+
+
+</td>
+<td valign="top">
+
+Regional DNS hostname to connect to the AWS interface endpoint.
+
+
+
+</td>
+</tr>
+</table>
 
 > ### Sample Code:  
 > ```

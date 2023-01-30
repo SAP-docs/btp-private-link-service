@@ -94,8 +94,25 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 The following binding credentials are provided:
 
--   *\*hostname\**: DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
 
+<table>
+<tr>
+<td valign="top">
+
+*hostname*
+
+
+
+</td>
+<td valign="top">
+
+DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
+
+
+
+</td>
+</tr>
+</table>
 
 > ### Sample Code:  
 > KeyVault

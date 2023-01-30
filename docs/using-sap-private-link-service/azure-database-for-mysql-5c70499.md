@@ -85,8 +85,27 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 The following binding credentials are provided:
 
--   *hostname*: DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
+****
 
+
+<table>
+<tr>
+<td valign="top">
+
+*hostname*
+
+
+
+</td>
+<td valign="top">
+
+DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
+
+
+
+</td>
+</tr>
+</table>
 
 
 
@@ -115,4 +134,24 @@ The following binding credentials are provided:
 
 > ### Note:  
 > `Basic` version of MySQL is not supported since it does not allow Private Endpoints creation. All supported versions can be found in the official [Azure Database for MySQL documentation](https://docs.microsoft.com/en-us/azure/mysql/concepts-limits#vnet-service-endpoints).
+
+
+
+<a name="loio5c70499ee70b415d954145a795e43355__section_okw_dtx_svb"/>
+
+## Sample Applications
+
+There is no custom configuration needed to connect to the MySQL server via SAP Private Link.
+
+Just use a MySQL client library of your choice and configure it to use the hostname from the service binding \(and of course, username, password and any other settings\).
+
+
+
+<a name="loio5c70499ee70b415d954145a795e43355__section_wn1_gtx_svb"/>
+
+## Tutorials
+
+Martin Pankraz published a blog post outlining the steps how set up a MySQL server and consume it via SAP Private Link:
+
+[SAP private linky swear with Azure – connecting to PaaS DBs with SAP Private Link Service](https://blogs.sap.com/2022/01/12/btp-private-linky-swear-with-azure-connecting-to-cheap-paas-dbs-with-private-link-service/)
 
