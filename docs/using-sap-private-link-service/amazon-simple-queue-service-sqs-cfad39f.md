@@ -15,22 +15,6 @@ The following Cloud Foundry service specific configuration parameters are suppor
 
 <table>
 <tr>
-<th valign="top">
-
- 
-
-
-
-</th>
-<th valign="top">
-
- 
-
-
-
-</th>
-</tr>
-<tr>
 <td valign="top">
 
 *serviceName* \(required\)

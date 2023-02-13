@@ -113,7 +113,7 @@ DNS entry to connect to the workload endpoint of the App or Function. This DNS e
 </td>
 <td valign="top">
 
--   DNS entry to connect to the SCM endpoint \(deployment/debugging interface\) of the App or Function. This DNS entry resolves to the internal IP address associated with this private link.
+DNS entry to connect to the SCM endpoint \(deployment/debugging interface\) of the App or Function. This DNS entry resolves to the internal IP address associated with this private link.
 
 
 
