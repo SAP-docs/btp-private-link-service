@@ -113,6 +113,90 @@ SAP Private Link
 </td>
 <td valign="top">
 
+Additional Amazon Web Services \(Beta\) available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports [Amazon Key Management Service \(KMS\)](using-sap-private-link-service/amazon-key-management-service-kms-9885247.md) on SAP BTP Cloud Foundry regions running on Amazon Web Services.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-02-23
+
+
+
+</td>
+<td valign="top">
+
+2023-02-23
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Additional Azure services available on SAP BTP Cloud Foundry regions
 
 

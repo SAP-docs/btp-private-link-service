@@ -48,6 +48,8 @@ The following Amazon Web Services can currently be consumed from SAP BTP:
 -   [Amazon Relational Database Service \(RDS\) - Aurora Data API](amazon-relational-database-service-rds-aurora-data-api-cf3528f.md)
 
 -   [Amazon Lambda](amazon-lambda-45e272a.md)
+-   [Amazon Key Management Service \(KMS\)](amazon-key-management-service-kms-9885247.md)
+
 
 
 
@@ -77,4 +79,6 @@ Consume Amazon Simple Email Service \(SES\) with SAP Private Link service.
 Consume Amazon Relational Database Service \(RDS\) - Aurora DATA API with SAP Private Link service.
 -   **[Amazon Lambda](amazon-lambda-45e272a.md "Consume Amazon Lambda with SAP Private Link service.")**  
 Consume Amazon Lambda with SAP Private Link service.
+-   **[Amazon Key Management Service \(KMS\)](amazon-key-management-service-kms-9885247.md "Consume Amazon Key Management Service (KMS) with SAP Private Link service.")**  
+Consume Amazon Key Management Service \(KMS\) with SAP Private Link service.
 
