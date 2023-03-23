@@ -49,7 +49,7 @@ Identifies the subresource on Azure the private link should be created for. Must
 <tr>
 <td valign="top">
 
-*requestMessage*
+*requestMessage* \(optional\)
 
 
 

@@ -13,12 +13,6 @@ Consume Azure Database for MariaDB with SAP Private Link service.
 The following Cloud Foundry service-specific configuration parameters are supported during a service instance creation:
 
 
-
-<a name="loio862fa2958c574c3cbfa12a927ce1d5fe__section_z2j_l14_nrb"/>
-
-## Parameters
-
-
 <table>
 <tr>
 <td valign="top">

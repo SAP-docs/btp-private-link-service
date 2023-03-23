@@ -10,7 +10,7 @@ Consume Amazon Simple Email Service \(SES\) with SAP Private Link service.
 
 ## Creation Request
 
-The following Cloud Foundry service specific configuration parameters are supported during a service instance creation:
+The following Cloud Foundry service-specific configuration parameters are supported during a service instance creation:
 
 
 <table>
@@ -26,7 +26,27 @@ The following Cloud Foundry service specific configuration parameters are suppor
 
 The serviceName on AWS side that uniquely identifies the AWS endpoint service to connect to.
 
-In case of Amazon SES, the value is always in the form com.amazonaws<region\>.email-smtp.
+In case of Amazon SES, the value is always in the form com.amazonaws.<region\>.email-smtp.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*desiredAZs* \(optional\)
+
+
+
+</td>
+<td valign="top">
+
+SAP BTP CF runs in three AWS availability zones.
+
+SES does not support VPC endpoints in the following Availability Zones: use1-az2, use1-az3, use1-az5, usw1-az2, usw2-az4, apne2-az4, cac1-az3, and cac1-az4.
+
+This is a precautionary measure to ensure that you correctly specify this property in a region where [AWS does not support SES VPC Endpoint creation in some Availability Zones](https://docs.aws.amazon.com/ses/latest/dg/send-email-set-up-vpc-endpoints.html).
 
 
 
@@ -37,7 +57,8 @@ In case of Amazon SES, the value is always in the form com.amazonaws<region\>.em
 > ### Sample Code:  
 > ```
 > {
->     "serviceName": "com.amazonaws.us-east-1.email-smtp"
+>     "serviceName": "com.amazonaws.us-east-1.email-smtp",
+>     "desiredAZs": 2
 > }
 > ```
 

@@ -39,6 +39,8 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure Database for MySQL](azure-database-for-mysql-5c70499.md)
 
+-   [Azure Storage Account](azure-storage-account-75b307e.md)
+
 -   [Azure Key Vault](azure-key-vault-407fb19.md)
 
 -   [Azure CosmosDB](azure-cosmos-db-663ed56.md)
@@ -51,9 +53,21 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure Machine Learning](azure-machine-learning-3421f1f.md)
 
+-   [Azure Cognitive Services](azure-cognitive-services-3c1a30b.md)
 
 > ### Note:  
 > If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
+
+> ### Restriction:  
+> Mixing public and private endpoints for Azure resources in your Azure subscription when connected via SAP BTP using SAP Private Link, is not supported at this point.
+> 
+> Possible solutions to address such requirements are:
+> 
+> -   Use only private endpoints and add SAP Private Link service to your SAP BTP implementation.
+> 
+> -   Enable a mixed setup of private public access to the storage account via SAP BTP in parallel using Azure Application Gateway.
+> 
+> -   Remove the private endpoint on Azure and consume publicly.
 
 
 
@@ -69,6 +83,8 @@ Consume Azure Private Link service with SAP Private Link service.
 Consume Azure Database for MariaDB with SAP Private Link service.
 -   **[Azure Database for MySQL](azure-database-for-mysql-5c70499.md "Consume Azure Database for MySQL with SAP Private Link service . ")**  
 Consume Azure Database for MySQL with SAP Private Link service.
+-   **[Azure Storage Account](azure-storage-account-75b307e.md "Consume Azure Storage Account with SAP Private Link service . ")**  
+Consume Azure Storage Account with SAP Private Link service.
 -   **[Azure Key Vault](azure-key-vault-407fb19.md "Consume Azure KeyVault and Azure Keyvault ManagedHSM with SAP Private Link
 			service.")**  
 Consume Azure KeyVault and Azure Keyvault ManagedHSM with SAP Private Link service.
@@ -83,4 +99,6 @@ Consume Azure Application Gateway with SAP Private Link service.
 Consume Azure Automation with SAP Private Link service.
 -   **[Azure Machine Learning](azure-machine-learning-3421f1f.md "Consume Azure Machine Learning with SAP Private Link service.")**  
 Consume Azure Machine Learning with SAP Private Link service.
+-   **[Azure Cognitive Services](azure-cognitive-services-3c1a30b.md "Consume Azure Cognitive Services with SAP Private Link service.")**  
+Consume Azure Cognitive Services with SAP Private Link service.
 

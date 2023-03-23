@@ -433,5 +433,21 @@ You are trying to create a private endpoint for a subResource to a CosmosDB inst
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Azure Speech service requires a custom domain name to be set to be used with Private Link. Please see [Use Speech service through a private endpoint](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-services-private-link?tabs=portal).
+
+
+
+</td>
+<td valign="top">
+
+Azure Speech service requires additional configuration to support private link connectivity. Please check the linked documentation.
+
+
+
+</td>
+</tr>
 </table>
 
