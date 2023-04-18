@@ -113,6 +113,174 @@ SAP Private Link
 </td>
 <td valign="top">
 
+Additional Amazon Web Services \(Beta\) available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports [Amazon IoT Core](using-sap-private-link-service/amazon-iot-core-8a1c303.md) on SAP BTP Cloud Foundry regions running on Amazon Web Services.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-04-06
+
+
+
+</td>
+<td valign="top">
+
+2023-04-06
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Azure services available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports [Azure Form Recognizer](using-sap-private-link-service/azure-form-recognizer-570ee0d.md) on SAP BTP Cloud Foundry regions running on Azure.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-28
+
+
+
+</td>
+<td valign="top">
+
+2023-03-28
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Additional Azure services available on SAP BTP Cloud Foundry regions
 
 

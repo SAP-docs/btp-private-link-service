@@ -50,6 +50,7 @@ The following Amazon Web Services can currently be consumed from SAP BTP:
 -   [Amazon Lambda](amazon-lambda-45e272a.md)
 -   [Amazon Key Management Service \(KMS\)](amazon-key-management-service-kms-9885247.md)
 
+-   [Amazon IoT Core](amazon-iot-core-8a1c303.md)
 
 
 
@@ -81,4 +82,6 @@ Consume Amazon Relational Database Service \(RDS\) - Aurora DATA API with SAP Pr
 Consume Amazon Lambda with SAP Private Link service.
 -   **[Amazon Key Management Service \(KMS\)](amazon-key-management-service-kms-9885247.md "Consume Amazon Key Management Service (KMS) with SAP Private Link service.")**  
 Consume Amazon Key Management Service \(KMS\) with SAP Private Link service.
+-   **[Amazon IoT Core](amazon-iot-core-8a1c303.md "Consume Amazon IoT Core with SAP Private Link service.")**  
+Consume Amazon IoT Core with SAP Private Link service.
 
