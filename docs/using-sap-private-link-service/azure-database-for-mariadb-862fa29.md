@@ -64,8 +64,6 @@ Specifies a message which is shown for the approval request on Azure for the spe
 </tr>
 </table>
 
-
-
 > ### Sample Code:  
 > ```
 > 
@@ -99,15 +97,13 @@ The following binding credentials are provided:
 </td>
 <td valign="top">
 
-DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link
+DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
 
 
 
 </td>
 </tr>
 </table>
-
-
 
 > ### Sample Code:  
 > ```

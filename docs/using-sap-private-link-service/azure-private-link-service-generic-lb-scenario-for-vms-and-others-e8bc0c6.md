@@ -50,8 +50,6 @@ Specifies a message which is shown for the approval request on Azure for the spe
 </tr>
 </table>
 
-
-
 > ### Sample Code:  
 > ```
 > 
@@ -84,7 +82,7 @@ The following binding credentials are provided:
 </td>
 <td valign="top">
 
-Private DNS entry to connect to the Azure resource.
+Private DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
 
 
 
@@ -110,8 +108,6 @@ Additional private DNS entry to connect to the Azure resource.
 
 > ### Note:  
 > Refer to the section **Transport Layer Security** at the end of this chapter for more details.
-
-
 
 > ### Sample Code:  
 > ```

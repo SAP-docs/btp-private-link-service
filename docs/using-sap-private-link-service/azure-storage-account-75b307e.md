@@ -66,11 +66,8 @@ Specifies a message which is shown for the approval request on Azure for the spe
 </tr>
 </table>
 
-
-
 > ### Sample Code:  
 > ```
-> 
 > {
 >     "resourceId": "/subscriptions/<subscription>/resourceGroups/<rg>/providers/Microsoft.Storage/storageAccounts/<my-storage-account>",
 >     "subResource": "queue",
@@ -105,8 +102,6 @@ DNS entry to connect to the Azure resource. This DNS entry resolves to the inter
 </td>
 </tr>
 </table>
-
-
 
 > ### Sample Code:  
 > ```
