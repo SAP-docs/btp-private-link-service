@@ -54,6 +54,8 @@ The following Azure services can currently be consumed from SAP BTP:
 -   [Azure Machine Learning](azure-machine-learning-3421f1f.md)
 
 -   [Azure Cognitive Services](azure-cognitive-services-3c1a30b.md)
+-   [Azure Form Recognizer](azure-form-recognizer-570ee0d.md)
+
 
 > ### Note:  
 > If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
@@ -66,6 +68,8 @@ The following Azure services can currently be consumed from SAP BTP:
 > -   Use only private endpoints and add SAP Private Link service to your SAP BTP implementation.
 > 
 > -   Enable a mixed setup of private public access to the storage account via SAP BTP in parallel using Azure Application Gateway.
+> 
+> -   Use virtual hostname in the SAP Cloud Connector pointing to the internal IP of our azure native service.
 > 
 > -   Remove the private endpoint on Azure and consume publicly.
 
