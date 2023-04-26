@@ -177,3 +177,11 @@ There is no custom configuration needed for your application to consume the Azur
 
 You can follow any tutorial using a suitable client library for the language of your choice.
 
+
+
+<a name="loio663ed5631cfd4ef0a4bd89ca00266943__section_nhj_rwj_gxb"/>
+
+## Tutorials
+
+Martin Pankraz published a blog post outlining the steps on how to set up a multi-region with emphasis on private connectivity to the distributed database Azure Cosmos DB from your SAP BTP apps: [SAP private linky swear with Azure – global scale with Azure Cosmos DB and SAP Private Link](https://blogs.sap.com/2023/01/27/sap-private-linky-swear-with-azure-global-scale-with-azure-cosmos-db-with-sap-private-link/)
+

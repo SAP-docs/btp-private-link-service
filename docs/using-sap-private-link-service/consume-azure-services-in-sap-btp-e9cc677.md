@@ -69,7 +69,7 @@ The following Azure services can currently be consumed from SAP BTP:
 > 
 > -   Enable a mixed setup of private public access to the storage account via SAP BTP in parallel using Azure Application Gateway.
 > 
-> -   Use virtual hostname in the SAP Cloud Connector pointing to the internal IP of our azure native service.
+> -   Use virtual hostname in the SAP Cloud Connector pointing to the internal IP of our Azure native service.
 > 
 > -   Remove the private endpoint on Azure and consume publicly.
 
@@ -79,7 +79,7 @@ The following Azure services can currently be consumed from SAP BTP:
 
 ## Tutorial
 
-To learn how to connect the SAP Private Link service to Microsoft Azure, see [Connect SAP Private Link Service to Microsoft Azure Private Link Service with Cloud Foundry CLI](https://developers.sap.com/tutorials/private-link-microsoft-azure.html).
+To learn how to connect the SAP Private Link service to Microsoft Azure, see [https://developers.sap.com/tutorials/private-link-microsoft-azure.html](https://developers.sap.com/tutorials/private-link-microsoft-azure.html).
 
 -   **[Azure Private Link Service \(generic LB scenario for VMs and others\)](azure-private-link-service-generic-lb-scenario-for-vms-and-others-e8bc0c6.md "Consume Azure Private Link service with SAP Private Link service . ")**  
 Consume Azure Private Link service with SAP Private Link service.

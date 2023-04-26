@@ -128,3 +128,11 @@ DNS entry to connect to the Azure resource. This DNS entry resolves to the inter
 > ### Note:  
 > Storage Account kind *Storage \(general purpose v1\)* is not supported since it does not allow Private Endpoint creation.
 
+
+
+<a name="loio75b307e216e04d1eb93ba590c4474a53__section_rm1_vvj_gxb"/>
+
+## Tutorials
+
+Harutyun Ter-Minasyan published a blog post outlining more use cases for SAP Private Link connectivity: [SAP Private Link service use cases for SAP Cloud Integration and SAP Build Work Zone, Standard Edition](https://blogs.sap.com/2022/08/22/sap-private-link-service-use-cases-for-sap-cloud-integration-and-sap-launchpad/)
+

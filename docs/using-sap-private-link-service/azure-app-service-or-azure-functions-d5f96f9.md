@@ -156,3 +156,11 @@ If your application or function offers a [Custom DNS Name](https://docs.microsof
 -   For functions, private endpoints are only supported on the Functions Premium tier or if they run on an App service plan.
 
 
+
+
+<a name="loiod5f96f99a9034ce290cf4384b4166255__section_msp_gxj_gxb"/>
+
+## Tutorials
+
+Martin Pankraz published a blog post outlining the steps on how to enable SAP CAP with Azure services without OData APIs using SAP Private Link: [SAP private linky swear with Azure – enabling SAP CAP with Azure services without OData APIs using SAP Private Link](https://blogs.sap.com/2023/04/24/sap-private-linky-swear-with-azure-enabling-sap-cap-with-azure-services-without-odata-apis-using-sap-private-link/)
+
