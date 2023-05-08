@@ -17,6 +17,9 @@ To privately access a service in your AWS accounts, SAP Private Link service cre
 > ### Caution:  
 > Beta features need to be enabled for your subaccount. For more information, see [Create Subaccount](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/05280a123d3044ae97457a25b3013918.html) or [Change Subaccount Details](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/567d4a84bfdc428f8f3640e07261f73a.html).
 
+> ### Remember:  
+> The SAP Private Link service on AWS will transition over from Beta to General Availability \(GA\) beginning of June 2023. In preparation for this, the existing Beta service instances must be deleted. Any remaining existing instances from the Beta offering will be purged on June 1st week, 2023.
+
 
 
 <a name="loio575341947b854a82a9f3ba2bc6b1b6cc__section_b45_53s_45b"/>
