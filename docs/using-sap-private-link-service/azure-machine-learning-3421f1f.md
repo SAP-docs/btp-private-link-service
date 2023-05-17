@@ -159,10 +159,10 @@ DNS entry for accessing the Azure Machine Learning Workspace's management API.
 >         {
 >             ...
 >             "credentials": {
->                 "inferenceHostname": "*.00000000-0000-0000-0000-00000000.inference.westeurope.privatelink.api.azureml.ms",
->                 "notebooksHostname": "ml-workspaceabc-westeurope-00000000-0000-0000-0000-00000000.westeurope.privatelink.notebooks.azure.net",
->                 "workspaceCertHostname": "00000000-0000-0000-0000-00000000.workspace.westeurope.cert.privatelink.api.azureml.ms",
->                 "workspaceHostname": "00000000-0000-0000-0000-00000000.workspace.westeurope.privatelink.api.azureml.ms",
+>                 "inferenceHostname": "*.00000000-0000-0000-0000-00000000.inference.westeurope.api.azureml.ms",
+>                 "notebooksHostname": "ml-workspaceabc-westeurope-00000000-0000-0000-0000-00000000.westeurope.notebooks.azure.net",
+>                 "workspaceCertHostname": "00000000-0000-0000-0000-00000000.workspace.westeurope.cert.api.azureml.ms",
+>                 "workspaceHostname": "00000000-0000-0000-0000-00000000.workspace.westeurope.api.azureml.ms",
 >             }
 >         }
 >     ]

@@ -105,6 +105,6 @@ Consume Azure Automation with SAP Private Link service.
 Consume Azure Machine Learning with SAP Private Link service.
 -   **[Azure Cognitive Services](azure-cognitive-services-3c1a30b.md "Consume Azure Cognitive Services with SAP Private Link service.")**  
 Consume Azure Cognitive Services with SAP Private Link service.
--   **[Azure Form Recognizer](azure-form-recognizer-570ee0d.md "Consume Azure Form Recognizer with SAP Private Link service")**  
-Consume Azure Form Recognizer with SAP Private Link service
+-   **[Azure Form Recognizer](azure-form-recognizer-570ee0d.md "Consume Azure Form Recognizer with SAP Private Link service.")**  
+Consume Azure Form Recognizer with SAP Private Link service.
 

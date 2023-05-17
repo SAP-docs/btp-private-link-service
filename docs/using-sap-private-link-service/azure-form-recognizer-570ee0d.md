@@ -2,7 +2,7 @@
 
 # Azure Form Recognizer
 
-Consume Azure Form Recognizer with SAP Private Link service
+Consume Azure Form Recognizer with SAP Private Link service.
 
 
 
