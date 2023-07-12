@@ -113,7 +113,91 @@ SAP Private Link
 </td>
 <td valign="top">
 
-Additional Amazon Web Services \(Beta\) available on SAP BTP Cloud Foundry regions
+Additional Azure services available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports [Azure Cache for Redis](using-sap-private-link-service/azure-cache-for-redis-a204b79.md) and [Azure OpenAI](using-sap-private-link-service/azure-openai-7056d9b.md) on SAP BTP Cloud Foundry regions running on Azure.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-15
+
+
+
+</td>
+<td valign="top">
+
+2023-06-15
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Amazon Web Services available on SAP BTP Cloud Foundry regions
 
 
 
@@ -449,7 +533,7 @@ SAP Private Link
 </td>
 <td valign="top">
 
-Additional Amazon Web Services \(Beta\) available on SAP BTP Cloud Foundry regions
+Additional Amazon Web Services available on SAP BTP Cloud Foundry regions
 
 
 
@@ -617,7 +701,7 @@ SAP Private Link
 </td>
 <td valign="top">
 
-Additional Amazon Web Services \(Beta\) available on SAP BTP Cloud Foundry regions
+Additional Amazon Web Services available on SAP BTP Cloud Foundry regions
 
 
 
@@ -701,14 +785,14 @@ SAP Private Link
 </td>
 <td valign="top">
 
-SAP Private Link Service on Amazon Web Services \(Beta\) in SAP BTP
+SAP Private Link Service on Amazon Web Services in SAP BTP
 
 
 
 </td>
 <td valign="top">
 
-With this beta release, SAP Private Link service lets you consume selected Amazon Web Services \(AWS\) in your own AWS subscriptions in SAP BTP. For more information, see [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md).
+With this release, SAP Private Link service lets you consume selected Amazon Web Services \(AWS\) in your own AWS subscriptions in SAP BTP. For more information, see [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md).
 
 
 

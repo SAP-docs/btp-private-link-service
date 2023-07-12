@@ -19,6 +19,8 @@
         -   [Azure Machine Learning](using-sap-private-link-service/azure-machine-learning-3421f1f.md)
         -   [Azure Cognitive Services](using-sap-private-link-service/azure-cognitive-services-3c1a30b.md)
         -   [Azure Form Recognizer](using-sap-private-link-service/azure-form-recognizer-570ee0d.md)
+        -   [Azure OpenAI](using-sap-private-link-service/azure-openai-7056d9b.md)
+        -   [Azure Cache for Redis](using-sap-private-link-service/azure-cache-for-redis-a204b79.md)
     -   [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md)
         -   [AWS Endpoint Service](using-sap-private-link-service/aws-endpoint-service-6d1453b.md)
         -   [Amazon S3](using-sap-private-link-service/amazon-s3-b7b0e39.md)

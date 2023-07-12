@@ -36,13 +36,34 @@ If you are running your applications or services on SAP BTP and you want to comm
 
 ## Features
 
-  Access services privately 
- :   Enable access to private service endpoints and avoid public endpoints when connecting to selected service instances across account boundaries.
 
-   Transfer data privately 
- :   Transfer data over private networks and avoid data transfer over the public Internet when connecting to selected service instances across account boundaries.
+<dl>
+<dt><b>
 
- 
+ Access services privately 
+
+</b></dt>
+<dd>
+
+Enable access to private service endpoints and avoid public endpoints when connecting to selected service instances across account boundaries.
+
+
+
+</dd><dt><b>
+
+ Transfer data privately 
+
+</b></dt>
+<dd>
+
+Transfer data over private networks and avoid data transfer over the public Internet when connecting to selected service instances across account boundaries.
+
+
+
+</dd>
+</dl>
+
+
 
 <a name="loio3eb3bc7aa5db4b5da9dcdbf8ee478e52__section_mkl_rrc_zsb"/>
 

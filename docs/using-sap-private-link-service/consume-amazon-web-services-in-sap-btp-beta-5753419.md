@@ -14,11 +14,8 @@ To privately access a service in your AWS accounts, SAP Private Link service cre
 
  ![](images/Private_Link-Scenario_2_c2a38ec.png) 
 
-> ### Caution:  
-> Beta features need to be enabled for your subaccount. For more information, see [Create Subaccount](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/05280a123d3044ae97457a25b3013918.html) or [Change Subaccount Details](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/567d4a84bfdc428f8f3640e07261f73a.html).
-
-> ### Remember:  
-> The SAP Private Link service on AWS will transition over from Beta to General Availability \(GA\) beginning of June 2023. In preparation for this, the existing Beta service instances must be deleted. Any remaining existing instances from the Beta offering will be purged on June 1st week, 2023.
+> ### Note:  
+> Beta features need to be enabled for your subaccount. For more information, see [Create a Subaccount](https://help.sap.com/docs/btp/sap-business-technology-platform/create-subaccount?version=Cloud) or [Change Subaccount Details](https://help.sap.com/docs/btp/sap-business-technology-platform/change-subaccount-details?version=Cloud).
 
 
 
@@ -63,7 +60,7 @@ The following Amazon Web Services can currently be consumed from SAP BTP:
 
 To learn how to connect the SAP Private Link service to Amazon Web Services, see [Connect SAP Private Link Service to AWS Private Link Service](https://developers.sap.com/tutorials/private-link-aws.html) .
 
-To learn how to set up SAP Private Link service on Amazon Web Services \(Beta\), see [Set Up SAP Private Link Service on Amazon Web Services \(Beta\)](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html).
+To learn how to set up SAP Private Link service on Amazon Web Services, see [Set Up SAP Private Link Service on Amazon Web Services \(Beta\)](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html).
 
 -   **[AWS Endpoint Service](aws-endpoint-service-6d1453b.md "Consume AWS Endpoint Services with SAP Private Link service.")**  
 Consume AWS Endpoint Services with SAP Private Link service.

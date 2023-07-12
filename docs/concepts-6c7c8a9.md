@@ -14,13 +14,34 @@ To privately access a service in your **IaaS Provider account**, the SAP Private
 
  ![Components of the SAP Private Link service](images/SAP_Private_Link_Service_Components_2b28665.png) 
 
- IaaS Provider Account
- :   The account that contains the selected service to which you want to establish a private connection for a selected service from your application running on SAP BTP.
 
-  Private Endpoint
- :   A connection point that provides an internal IP address to an IaaS provider service in your own IaaS provider account that would normally only be accessible via a public IP address.
+<dl>
+<dt><b>
 
- 
+IaaS Provider Account
+
+</b></dt>
+<dd>
+
+The account that contains the selected service to which you want to establish a private connection for a selected service from your application running on SAP BTP.
+
+
+
+</dd><dt><b>
+
+Private Endpoint
+
+</b></dt>
+<dd>
+
+A connection point that provides an internal IP address to an IaaS provider service in your own IaaS provider account that would normally only be accessible via a public IP address.
+
+
+
+</dd>
+</dl>
+
+
 
 <a name="loio6c7c8a9282e344979295efb882637cd4__section_zby_5hz_cpb"/>
 
@@ -32,19 +53,56 @@ However, this binding does not include any credentials for accessing the service
 
  ![Establishing a private connection using the SAP Private Link service](images/SAP_Private_Link_Service_Concepts_Flow_a76643c.png) 
 
- Service Identifier
- :   The unique identifier of a service instance of an IaaS provider service that has to be provided during the creation of the SAP Private Link service instance. The actual term depends on the IaaS provider, for example, in Azure, this unique service identifier is called *service resource*.
 
-  Service Instance
- :   Creating a service instance of the SAP Private Link service sets up a private endpoint that is associated with this service instance.
+<dl>
+<dt><b>
 
-  Binding
- :   Binding the service instance of the SAP Private Link service to the application gives the Cloud Foundry space access to the private endpoint. Binding the user-provided service to the application shares the service credentials with the application.
+Service Identifier
 
-  Credentials
- :   Creating a user-provided service, for example, enables you to share the credentials of the bound service instance in the IaaS provider account with the application in your SAP BTP account.
+</b></dt>
+<dd>
 
- 
+The unique identifier of a service instance of an IaaS provider service that has to be provided during the creation of the SAP Private Link service instance. The actual term depends on the IaaS provider, for example, in Azure, this unique service identifier is called *service resource*.
+
+
+
+</dd><dt><b>
+
+Service Instance
+
+</b></dt>
+<dd>
+
+Creating a service instance of the SAP Private Link service sets up a private endpoint that is associated with this service instance.
+
+
+
+</dd><dt><b>
+
+Binding
+
+</b></dt>
+<dd>
+
+Binding the service instance of the SAP Private Link service to the application gives the Cloud Foundry space access to the private endpoint. Binding the user-provided service to the application shares the service credentials with the application.
+
+
+
+</dd><dt><b>
+
+Credentials
+
+</b></dt>
+<dd>
+
+Creating a user-provided service, for example, enables you to share the credentials of the bound service instance in the IaaS provider account with the application in your SAP BTP account.
+
+
+
+</dd>
+</dl>
+
+
 
 > ### Note:  
 > Depending on the IaaS provider, you might need to perform additional steps. For more information, see [Using SAP Private Link Service](using-sap-private-link-service/using-sap-private-link-service-3672119.md).

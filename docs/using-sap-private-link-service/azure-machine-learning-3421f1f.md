@@ -95,7 +95,7 @@ The following binding credentials are provided:
 </td>
 <td valign="top">
 
-DNS entry to connect to Azure Machine Learning endpoints of the connected Azure Machine Learning workspace. Should be used in combination with the managed online endpoint name provided by Azure, for example, `myManagedOnlineEndpoint.00000000-0000-0000-0000-00000000.inference.westeurope.privatelink.api.azureml.ms`.
+DNS entry to connect to Azure Machine Learning endpoints of the connected Azure Machine Learning workspace. Should be used in combination with the managed online endpoint name provided by Azure, for example, `myManagedOnlineEndpoint.00000000-0000-0000-0000-00000000.inference.westeurope.api.azureml.ms`.
 
 
 
