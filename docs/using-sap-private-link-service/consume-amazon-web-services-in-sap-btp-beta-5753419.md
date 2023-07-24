@@ -12,7 +12,7 @@ SAP Private Link service establishes a private connection between selected SAP B
 
 To privately access a service in your AWS accounts, SAP Private Link service creates an AWS interface endpoint and reuses the private link functionality of AWS:
 
- ![](images/Private_Link-Scenario_2_c2a38ec.png) 
+![](images/Private_Link-Scenario_2_c2a38ec.png)
 
 > ### Note:  
 > Beta features need to be enabled for your subaccount. For more information, see [Create a Subaccount](https://help.sap.com/docs/btp/sap-business-technology-platform/create-subaccount?version=Cloud) or [Change Subaccount Details](https://help.sap.com/docs/btp/sap-business-technology-platform/change-subaccount-details?version=Cloud).

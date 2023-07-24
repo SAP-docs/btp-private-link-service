@@ -79,7 +79,7 @@ Specifies a message which is shown for the approval request on Azure for the spe
 
 ## Binding Credentials
 
- **Webhook Subresource**
+**Webhook Subresource**
 
 The following binding credentials are provided:
 

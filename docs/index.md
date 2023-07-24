@@ -14,7 +14,7 @@
         -   [Azure Key Vault](using-sap-private-link-service/azure-key-vault-407fb19.md)
         -   [Azure Cosmos DB](using-sap-private-link-service/azure-cosmos-db-663ed56.md)
         -   [Azure App Service or Azure Functions](using-sap-private-link-service/azure-app-service-or-azure-functions-d5f96f9.md)
-        -   [Azure Application Gateway \(Beta\)](using-sap-private-link-service/azure-application-gateway-beta-af86a45.md)
+        -   [Azure Application Gateway](using-sap-private-link-service/azure-application-gateway-af86a45.md)
         -   [Azure Automation](using-sap-private-link-service/azure-automation-8064b46.md)
         -   [Azure Machine Learning](using-sap-private-link-service/azure-machine-learning-3421f1f.md)
         -   [Azure Cognitive Services](using-sap-private-link-service/azure-cognitive-services-3c1a30b.md)

@@ -12,7 +12,7 @@ Get to know the basic terms of the SAP Private Link service.
 
 To privately access a service in your **IaaS Provider account**, the SAP Private Link service creates a **private endpoint** that establishes a point-to-site connection between SAP BTP and the service:
 
- ![Components of the SAP Private Link service](images/SAP_Private_Link_Service_Components_2b28665.png) 
+![Components of the SAP Private Link service](images/SAP_Private_Link_Service_Components_2b28665.png)
 
 
 <dl>
@@ -51,7 +51,7 @@ To establish the private connection, you first create a **service instance** of 
 
 However, this binding does not include any credentials for accessing the service in your own IaaS account. You need to provide the credentials to your application by different means, for example, by creating a user-provided service that contains the required information, and binding it to the application.
 
- ![Establishing a private connection using the SAP Private Link service](images/SAP_Private_Link_Service_Concepts_Flow_a76643c.png) 
+![Establishing a private connection using the SAP Private Link service](images/SAP_Private_Link_Service_Concepts_Flow_a76643c.png)
 
 
 <dl>

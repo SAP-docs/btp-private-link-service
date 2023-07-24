@@ -12,7 +12,7 @@ SAP Private Link service establishes a private connection between selected SAP B
 
 To privately access a service in your Azure subcription, SAP Private Link service creates a private endpoint and reuses the private link functionality of Azure:
 
- ![Consuming Azure services in SAP BTP.](images/Private_Link_-_Scenario_1_0745a1a.png) 
+![Consuming Azure services in SAP BTP.](images/Private_Link_-_Scenario_1_0745a1a.png)
 
 
 
@@ -47,7 +47,7 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure App Service or Azure Functions](azure-app-service-or-azure-functions-d5f96f9.md)
 
--   [Azure Application Gateway \(Beta\)](azure-application-gateway-beta-af86a45.md)
+-   [Azure Application Gateway](azure-application-gateway-af86a45.md)
 
 -   [Azure Automation](azure-automation-8064b46.md)
 
@@ -101,7 +101,7 @@ Consume Cosmos DB with SAP Private Link service.
 -   **[Azure App Service or Azure Functions](azure-app-service-or-azure-functions-d5f96f9.md "Consume Azure App Service or Azure Functions with SAP Private Link
 			service.")**  
 Consume Azure App Service or Azure Functions with SAP Private Link service.
--   **[Azure Application Gateway \(Beta\)](azure-application-gateway-beta-af86a45.md "Consume Azure Application Gateway with SAP Private Link service. ")**  
+-   **[Azure Application Gateway](azure-application-gateway-af86a45.md "Consume Azure Application Gateway with SAP Private Link service. ")**  
 Consume Azure Application Gateway with SAP Private Link service.
 -   **[Azure Automation](azure-automation-8064b46.md "Consume Azure Automation with SAP Private Link service.")**  
 Consume Azure Automation with SAP Private Link service.

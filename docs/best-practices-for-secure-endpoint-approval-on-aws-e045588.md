@@ -46,7 +46,7 @@ You still need to make sure you follow the steps below to only approve benign re
 
 
 
-###  **Case 1: The user requesting the private link is also the AWS service owner \(approver\)**
+### **Case 1: The user requesting the private link is also the AWS service owner \(approver\)**
 
 If the person creating the request in SAP BTP and the person approving those requests are one and the same person, you must check the trustworthiness by matching the endpoint ID that is displayed after the request creation:
 

@@ -4,7 +4,7 @@
 
 # What Is SAP Private Link Service?
 
- Provide private connectivity to selected services. 
+Provide private connectivity to selected services. 
 
 SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own IaaS provider accounts. By reusing the private link functionality of our partner IaaS providers, it lets you access your services through private network connections to avoid data transfer via the public Internet.
 
@@ -40,7 +40,7 @@ If you are running your applications or services on SAP BTP and you want to comm
 <dl>
 <dt><b>
 
- Access services privately 
+Access services privately 
 
 </b></dt>
 <dd>
@@ -51,7 +51,7 @@ Enable access to private service endpoints and avoid public endpoints when conne
 
 </dd><dt><b>
 
- Transfer data privately 
+Transfer data privately 
 
 </b></dt>
 <dd>
@@ -77,7 +77,7 @@ This service is available in the Cloud Foundry environment.
 
 To privately access a service in your IaaS Provider account, SAP Private Link service creates a private endpoint and reuses the private link functionality of the IaaS provider:
 
- ![Establish a private connection using SAP Private Link service .](images/Private_Account_Overview_56b73fb.png) 
+![Establish a private connection using SAP Private Link service .](images/Private_Account_Overview_56b73fb.png)
 
 For more information, see [Concepts](concepts-6c7c8a9.md).
 
