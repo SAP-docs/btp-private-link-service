@@ -164,8 +164,8 @@ Object containing DNS entries to connect to the regional endpoints of the Cosmos
 
 ## Known Limitations
 
--   If a region is removed from the Cosmos DB with an existing private endpoint, the regional endpoint of this region will no longer work. However, the existing endpoints \(global and in other regions\) will continue to work.
--   If an additional region is added to a Cosmos DB, the endpoint for the new region will not automatically become available on the private endpoint. To make the endpoint of the additional region available, a new service instance must be created.
+-   If a region is removed from the Cosmos DB with an existing private endpoint, the regional endpoint of this region no longer works. However, the existing endpoints \(global and in other regions\) continues to work.
+-   If an additional region is added to a Cosmos DB, the endpoint for the new region does not automatically become available on the private endpoint. To make the endpoint of the additional region available, a new service instance must be created.
 
 
 
