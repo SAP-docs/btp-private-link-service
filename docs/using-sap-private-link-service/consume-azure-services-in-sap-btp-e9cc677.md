@@ -53,12 +53,14 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure Machine Learning](azure-machine-learning-3421f1f.md)
 
--   [Azure Cognitive Services](azure-cognitive-services-3c1a30b.md)
+-   [Azure Cognitive Services \(Azure AI Services\)](azure-cognitive-services-azure-ai-services-3c1a30b.md)
 -   [Azure Form Recognizer](azure-form-recognizer-570ee0d.md)
 
 -   [Azure OpenAI](azure-openai-7056d9b.md)
 
 -   [Azure Cache for Redis](azure-cache-for-redis-a204b79.md)
+
+-   [Azure Cosmos DB for PostgreSQL](azure-cosmos-db-for-postgresql-40d338b.md)
 
 
 > ### Note:  
@@ -107,12 +109,15 @@ Consume Azure Application Gateway with SAP Private Link service.
 Consume Azure Automation with SAP Private Link service.
 -   **[Azure Machine Learning](azure-machine-learning-3421f1f.md "Consume Azure Machine Learning with SAP Private Link service.")**  
 Consume Azure Machine Learning with SAP Private Link service.
--   **[Azure Cognitive Services](azure-cognitive-services-3c1a30b.md "Consume Azure Cognitive Services with SAP Private Link service.")**  
-Consume Azure Cognitive Services with SAP Private Link service.
+-   **[Azure Cognitive Services \(Azure AI Services\)](azure-cognitive-services-azure-ai-services-3c1a30b.md "Consume Azure Cognitive Services (Azure AI Services) with SAP Private Link
+		service.")**  
+Consume Azure Cognitive Services \(Azure AI Services\) with SAP Private Link service.
 -   **[Azure Form Recognizer](azure-form-recognizer-570ee0d.md "Consume Azure Form Recognizer with SAP Private Link service.")**  
 Consume Azure Form Recognizer with SAP Private Link service.
 -   **[Azure OpenAI](azure-openai-7056d9b.md "Consume Azure OpenAI with SAP Private Link service.")**  
 Consume Azure OpenAI with SAP Private Link service.
 -   **[Azure Cache for Redis](azure-cache-for-redis-a204b79.md "Consume Azure Cache for Redis and Redis Enterprise with SAP Private Link service. ")**  
 Consume Azure Cache for Redis and Redis Enterprise with SAP Private Link service.
+-   **[Azure Cosmos DB for PostgreSQL](azure-cosmos-db-for-postgresql-40d338b.md "Consume Azure Cosmos DB for PostgreSQL with SAP Private Link service.")**  
+Consume Azure Cosmos DB for PostgreSQL with SAP Private Link service.
 

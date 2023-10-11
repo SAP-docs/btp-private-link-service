@@ -8,7 +8,7 @@ SAP Private Link service lets you consume selected Azure native services of your
 
     SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own Microsoft Azure subscriptions.
 
--   [Consume Amazon Web Services in SAP BTP \(Beta\)](consume-amazon-web-services-in-sap-btp-beta-5753419.md)
+-   [Consume Amazon Web Services in SAP BTP](consume-amazon-web-services-in-sap-btp-5753419.md)
 
     SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own AWS accounts.
 
@@ -17,7 +17,7 @@ SAP Private Link service lets you consume selected Azure native services of your
 		a private connection between selected SAP BTP services and selected
 		services in your own Microsoft Azure subscriptions.")**  
 SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own Microsoft Azure subscriptions.
--   **[Consume Amazon Web Services in SAP BTP \(Beta\)](consume-amazon-web-services-in-sap-btp-beta-5753419.md "SAP Private Link service establishes a private connection between
+-   **[Consume Amazon Web Services in SAP BTP](consume-amazon-web-services-in-sap-btp-5753419.md "SAP Private Link service establishes a private connection between
 		selected SAP BTP services and selected services in your own Amazon Web Service  (AWS)
 		accounts.")**  
 SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own Amazon Web Service \(AWS\) accounts.

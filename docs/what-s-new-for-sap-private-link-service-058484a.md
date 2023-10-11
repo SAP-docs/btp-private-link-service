@@ -120,6 +120,90 @@ Additional Azure services available on SAP BTP Cloud Foundry regions
 </td>
 <td valign="top">
 
+The SAP Private Link service now also supports [Azure Cosmos DB for PostgreSQL](using-sap-private-link-service/azure-cosmos-db-for-postgresql-40d338b.md) on SAP BTP Cloud Foundry regions running on Azure.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-10-05
+
+
+
+</td>
+<td valign="top">
+
+2023-10-05
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Azure services available on SAP BTP Cloud Foundry regions
+
+
+
+</td>
+<td valign="top">
+
 The SAP Private Link service now also supports [Azure Cache for Redis](using-sap-private-link-service/azure-cache-for-redis-a204b79.md) and [Azure OpenAI](using-sap-private-link-service/azure-openai-7056d9b.md) on SAP BTP Cloud Foundry regions running on Azure.
 
 
@@ -160,7 +244,7 @@ Not applicable
 </td>
 <td valign="top">
 
- 
+SAP Business Technology Platform
 
 
 
@@ -175,6 +259,92 @@ Not applicable
 <td valign="top">
 
 2023-06-15
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+SAP Private Link service is no longer in beta mode but generally available in the SAP BTP Cloud Foundry regions on Amazon Web Services.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-09-07
+
+
+
+</td>
+<td valign="top">
+
+2023-09-07
 
 
 
@@ -372,7 +542,7 @@ Additional Azure services available on SAP BTP Cloud Foundry regions
 </td>
 <td valign="top">
 
-The SAP Private Link service now also supports [Azure Cognitive Services](using-sap-private-link-service/azure-cognitive-services-3c1a30b.md) on SAP BTP Cloud Foundry regions running on Azure.
+The SAP Private Link service now also supports [Azure Cognitive Services \(Azure AI Services\)](using-sap-private-link-service/azure-cognitive-services-azure-ai-services-3c1a30b.md) on SAP BTP Cloud Foundry regions running on Azure.
 
 
 
@@ -792,7 +962,7 @@ SAP Private Link Service on Amazon Web Services in SAP BTP
 </td>
 <td valign="top">
 
-With this release, SAP Private Link service lets you consume selected Amazon Web Services \(AWS\) in your own AWS subscriptions in SAP BTP. For more information, see [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md).
+With this release, SAP Private Link service lets you consume selected Amazon Web Services \(AWS\) in your own AWS subscriptions in SAP BTP. For more information, see [Consume Amazon Web Services in SAP BTP](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-5753419.md).
 
 
 

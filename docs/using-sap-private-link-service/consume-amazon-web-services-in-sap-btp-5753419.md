@@ -1,6 +1,6 @@
 <!-- loio575341947b854a82a9f3ba2bc6b1b6cc -->
 
-# Consume Amazon Web Services in SAP BTP \(Beta\)
+# Consume Amazon Web Services in SAP BTP
 
 SAP Private Link service establishes a private connection between selected SAP BTP services and selected services in your own Amazon Web Service \(AWS\) accounts.
 
@@ -12,10 +12,7 @@ SAP Private Link service establishes a private connection between selected SAP B
 
 To privately access a service in your AWS accounts, SAP Private Link service creates an AWS interface endpoint and reuses the private link functionality of AWS:
 
-![](images/Private_Link-Scenario_2_c2a38ec.png)
-
-> ### Note:  
-> Beta features need to be enabled for your subaccount. For more information, see [Create a Subaccount](https://help.sap.com/docs/btp/sap-business-technology-platform/create-subaccount?version=Cloud) or [Change Subaccount Details](https://help.sap.com/docs/btp/sap-business-technology-platform/change-subaccount-details?version=Cloud).
+![](images/c2a38ec195ec43f2a18da892b95bf10e.image)
 
 
 
@@ -60,7 +57,7 @@ The following Amazon Web Services can currently be consumed from SAP BTP:
 
 To learn how to connect the SAP Private Link service to Amazon Web Services, see [Connect SAP Private Link Service to AWS Private Link Service](https://developers.sap.com/tutorials/private-link-aws.html) .
 
-To learn how to set up SAP Private Link service on Amazon Web Services, see [Set Up SAP Private Link Service on Amazon Web Services \(Beta\)](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html).
+To learn how to set up SAP Private Link service on Amazon Web Services, see [Set Up SAP Private Link Service on Amazon Web Services](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html).
 
 -   **[AWS Endpoint Service](aws-endpoint-service-6d1453b.md "Consume AWS Endpoint Services with SAP Private Link service.")**  
 Consume AWS Endpoint Services with SAP Private Link service.

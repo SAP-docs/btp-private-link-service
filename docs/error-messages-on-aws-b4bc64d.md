@@ -80,7 +80,7 @@ Could not find a VPC Endpoint Service with type Interface for serviceName 'com.a
 </td>
 <td valign="top">
 
-The service you want to connect to does not support VPC Endpoint services. For an overview of supported services, see [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md).
+The service you want to connect to does not support VPC Endpoint services. For an overview of supported services, see [Consume Amazon Web Services in SAP BTP](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-5753419.md).
 
 
 
@@ -96,7 +96,7 @@ VPC Endpoints to VPC Endpoint Services for 'appstream.api' are currently not sup
 </td>
 <td valign="top">
 
-The service you want to connect to does not support VPC Endpoint services. For an overview of supported services, see [Consume Amazon Web Services in SAP BTP \(Beta\)](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-beta-5753419.md).
+The service you want to connect to does not support VPC Endpoint services. For an overview of supported services, see [Consume Amazon Web Services in SAP BTP](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-5753419.md).
 
 
 

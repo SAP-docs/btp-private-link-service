@@ -4,9 +4,6 @@
 
 Consume Azure Application Gateway with SAP Private Link service.
 
-> ### Note:  
-> Private Link support for Azure Application Gateway is still in **Public Preview** at Azure. [Azure's supplemental terms](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) apply. Since the functionality provided by Azure may change or break at any time, the SAP Private Link service currently considers support for the Azure Application Gateway as Beta and only supports connections to the Azure Application Gateway for non-productive scenarios.
-
 
 
 <a name="loioaf86a457ffd84324a6691c6ea1649dd6__section_npn_xpk_x5b"/>

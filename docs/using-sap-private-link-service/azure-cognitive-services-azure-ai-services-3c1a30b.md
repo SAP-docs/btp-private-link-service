@@ -1,8 +1,8 @@
 <!-- loio3c1a30b7fa704af0a14ff96cfb0a38a7 -->
 
-# Azure Cognitive Services
+# Azure Cognitive Services \(Azure AI Services\)
 
-Consume Azure Cognitive Services with SAP Private Link service.
+Consume Azure Cognitive Services \(Azure AI Services\) with SAP Private Link service.
 
 
 
