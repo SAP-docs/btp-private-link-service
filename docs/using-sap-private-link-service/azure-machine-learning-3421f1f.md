@@ -19,14 +19,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *resourceId* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the resource on Azure the private link should be created for.
-
-
 
 </td>
 </tr>
@@ -35,14 +31,10 @@ Identifies the resource on Azure the private link should be created for.
 
 *subResource* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the subresource on Azure the private link should be created for. Must be `amlworkspace`.
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ Identifies the subresource on Azure the private link should be created for. Must
 
 *requestMessage* \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 Specifies a message which is shown for the approval request on Azure for the specified resource.
-
-
 
 </td>
 </tr>
@@ -90,14 +78,10 @@ The following binding credentials are provided:
 
 *inferenceHostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry to connect to Azure Machine Learning endpoints of the connected Azure Machine Learning workspace. Should be used in combination with the managed online endpoint name provided by Azure, for example, `myManagedOnlineEndpoint.00000000-0000-0000-0000-00000000.inference.westeurope.api.azureml.ms`.
-
-
 
 </td>
 </tr>
@@ -106,14 +90,10 @@ DNS entry to connect to Azure Machine Learning endpoints of the connected Azure 
 
 *notebooksHostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry for connecting to the Azure Machine Learning Workspace's Jupyter Notebooks.
-
-
 
 </td>
 </tr>
@@ -122,14 +102,10 @@ DNS entry for connecting to the Azure Machine Learning Workspace's Jupyter Noteb
 
 *workspaceCertHostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry for the certificate endpoint to access the Azure Machine Learning Workspace's management API.
-
-
 
 </td>
 </tr>
@@ -138,14 +114,10 @@ DNS entry for the certificate endpoint to access the Azure Machine Learning Work
 
 *workspaceHostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry for accessing the Azure Machine Learning Workspace's management API.
-
-
 
 </td>
 </tr>

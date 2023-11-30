@@ -19,14 +19,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *resourceId* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the resource on Azure the private link should be created for.
-
-
 
 </td>
 </tr>
@@ -35,14 +31,10 @@ Identifies the resource on Azure the private link should be created for.
 
 *subResource* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the sub-resource on Azure the private link should be created for. Must be one of `Sql`, `MongoDB`, `Cassandra`, `Gremlin` or `Table`. Consult the [Azure documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-private-endpoints#private-zone-name-mapping) to see which sub-resource is available for the Cosmos DB instance.
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ Identifies the sub-resource on Azure the private link should be created for. Mus
 
 *cosmosDb.regions* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 A list of *all* regions the CosmosDB is running in. This information can be found under *Read Locations* and *Write Locations* in the overview of the CosmosDB in the Azure Portal. Must be in the region ID format which can be retrieved via `az account list-locations -o table`.
-
-
 
 </td>
 </tr>
@@ -67,14 +55,10 @@ A list of *all* regions the CosmosDB is running in. This information can be foun
 
 *requestMessage* \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 Specifies a message which is shown for the approval request on Azure for the specified resource.
-
-
 
 </td>
 </tr>
@@ -109,14 +93,10 @@ The following binding credentials are provided:
 
 *hostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry to connect to the global endpoint of the Cosmos DB. This DNS entry resolves to the internal IP address associated with this private link.
-
-
 
 </td>
 </tr>
@@ -125,14 +105,10 @@ DNS entry to connect to the global endpoint of the Cosmos DB. This DNS entry res
 
 *regions*
 
-
-
 </td>
 <td valign="top">
 
 Object containing DNS entries to connect to the regional endpoints of the Cosmos DB. The key of the object is the region ID, the value the FQDN of the regional Cosmos DB endpoint.
-
-
 
 </td>
 </tr>

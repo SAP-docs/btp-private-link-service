@@ -19,14 +19,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *resourceId* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the resource on Azure the private link should be created for.
-
-
 
 </td>
 </tr>
@@ -35,16 +31,12 @@ Identifies the resource on Azure the private link should be created for.
 
 *subResource* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the sub-resource on Azure the private link should be created for.
 
 Must be `sites`.
-
-
 
 </td>
 </tr>
@@ -53,14 +45,10 @@ Must be `sites`.
 
 *requestMessage* \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 Specifies a message which is shown for the approval request on Azure for the specified resource.
-
-
 
 </td>
 </tr>
@@ -92,14 +80,10 @@ The following binding credentials are provided:
 
 *hostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry to connect to the workload endpoint of the App or Function. This DNS entry resolves to the internal IP address associated with this private link.
-
-
 
 </td>
 </tr>
@@ -108,14 +92,10 @@ DNS entry to connect to the workload endpoint of the App or Function. This DNS e
 
 *scmHostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry to connect to the SCM endpoint \(deployment/debugging interface\) of the App or Function. This DNS entry resolves to the internal IP address associated with this private link.
-
-
 
 </td>
 </tr>

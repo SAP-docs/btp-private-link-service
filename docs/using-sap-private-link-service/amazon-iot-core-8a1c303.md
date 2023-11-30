@@ -21,14 +21,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *serviceName* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 The serviceName on AWS side that uniquely identifies the AWS endpoint service to connect to. In case of Amazon IoT Core, the value is always in the form com.amazonaws.<region\>.iot.data.
-
-
 
 </td>
 </tr>
@@ -37,14 +33,10 @@ The serviceName on AWS side that uniquely identifies the AWS endpoint service to
 
 *desiredAZs* \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP CF runs in three AWS availability zones. AWS IoT Core does not support VPC endpoints in some Availability Zones within a Region. This is a precautionary measure for [choosing an Availability Zone](https://docs.aws.amazon.com/iot/latest/developerguide/IoTCore-VPC.html#Create-VPC-endpoints) where AWS IoT Core is available in your specific AWS Region.
-
-
 
 </td>
 </tr>
@@ -75,14 +67,10 @@ The following binding credentials are provided:
 
 *hostname*
 
-
-
 </td>
 <td valign="top">
 
 Regional DNS hostname to connect to the AWS interface endpoint.
-
-
 
 </td>
 </tr>

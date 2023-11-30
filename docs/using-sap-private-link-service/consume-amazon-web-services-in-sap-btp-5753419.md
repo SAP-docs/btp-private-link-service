@@ -12,7 +12,7 @@ SAP Private Link service establishes a private connection between selected SAP B
 
 To privately access a service in your AWS accounts, SAP Private Link service creates an AWS interface endpoint and reuses the private link functionality of AWS:
 
-![](images/c2a38ec195ec43f2a18da892b95bf10e.image)
+![Consuming Amazon Web services in SAP BTP.](images/Private_Link_Service_Scenario_for_AWS_e82185c.png)
 
 
 
@@ -30,24 +30,7 @@ To privately access a service in your AWS accounts, SAP Private Link service cre
 
 ## Supported Services
 
-The following Amazon Web Services can currently be consumed from SAP BTP:
-
--   [AWS Endpoint Service](aws-endpoint-service-6d1453b.md)
-
--   [Amazon S3](amazon-s3-b7b0e39.md)
-
--   [Amazon Simple Queue Service \(SQS\)](amazon-simple-queue-service-sqs-cfad39f.md)
-
--   [Amazon Simple Notification Service \(SNS\)](amazon-simple-notification-service-sns-a0ba5f2.md)
-
--   [Amazon Simple Email Service \(SES\)](amazon-simple-email-service-ses-a6d40f2.md)
-
--   [Amazon Relational Database Service \(RDS\) - Aurora Data API](amazon-relational-database-service-rds-aurora-data-api-cf3528f.md)
-
--   [Amazon Lambda](amazon-lambda-45e272a.md)
--   [Amazon Key Management Service \(KMS\)](amazon-key-management-service-kms-9885247.md)
-
--   [Amazon IoT Core](amazon-iot-core-8a1c303.md)
+See [Supported Services for Amazon Web Services in SAP BTP](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md), for all Amazon Web Services that can currently be consumed from SAP BTP.
 
 
 
@@ -59,26 +42,6 @@ To learn how to connect the SAP Private Link service to Amazon Web Services, see
 
 To learn how to set up SAP Private Link service on Amazon Web Services, see [Set Up SAP Private Link Service on Amazon Web Services](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html).
 
--   **[AWS Endpoint Service](aws-endpoint-service-6d1453b.md "Consume AWS Endpoint Services with SAP Private Link service.")**  
-Consume AWS Endpoint Services with SAP Private Link service.
--   **[Amazon S3](amazon-s3-b7b0e39.md "Consume AWS S3 with SAP Private Link service.")**  
-Consume AWS S3 with SAP Private Link service.
--   **[Amazon Simple Queue Service \(SQS\)](amazon-simple-queue-service-sqs-cfad39f.md "Consume the Amazon Simple Queue Service (SQS) with SAP Private Link
-			service.")**  
-Consume the Amazon Simple Queue Service \(SQS\) with SAP Private Link service.
--   **[Amazon Simple Notification Service \(SNS\)](amazon-simple-notification-service-sns-a0ba5f2.md "Consume Amazon Simple Notification Service (SNS) with SAP Private Link
-			service.")**  
-Consume Amazon Simple Notification Service \(SNS\) with SAP Private Link service.
--   **[Amazon Simple Email Service \(SES\)](amazon-simple-email-service-ses-a6d40f2.md "Consume Amazon Simple Email Service (SES) with SAP Private Link
-		service.")**  
-Consume Amazon Simple Email Service \(SES\) with SAP Private Link service.
--   **[Amazon Relational Database Service \(RDS\) - Aurora Data API](amazon-relational-database-service-rds-aurora-data-api-cf3528f.md "Consume Amazon Relational Database Service (RDS) - Aurora DATA API with SAP
-			Private Link service.")**  
-Consume Amazon Relational Database Service \(RDS\) - Aurora DATA API with SAP Private Link service.
--   **[Amazon Lambda](amazon-lambda-45e272a.md "Consume Amazon Lambda with SAP Private Link service.")**  
-Consume Amazon Lambda with SAP Private Link service.
--   **[Amazon Key Management Service \(KMS\)](amazon-key-management-service-kms-9885247.md "Consume Amazon Key Management Service (KMS) with SAP Private Link service.")**  
-Consume Amazon Key Management Service \(KMS\) with SAP Private Link service.
--   **[Amazon IoT Core](amazon-iot-core-8a1c303.md "Consume Amazon IoT Core with SAP Private Link service.")**  
-Consume Amazon IoT Core with SAP Private Link service.
+-   **[Supported Services for Amazon Web Services in SAP BTP](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md "")**  
+
 

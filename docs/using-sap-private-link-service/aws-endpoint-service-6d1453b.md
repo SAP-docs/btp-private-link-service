@@ -19,14 +19,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *serviceName* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 The serviceName on AWS side that uniquely identifies the AWS endpoint service to connect to.
-
-
 
 </td>
 </tr>
@@ -34,8 +30,6 @@ The serviceName on AWS side that uniquely identifies the AWS endpoint service to
 <td valign="top">
 
 *desiredAZs* \(optional\)
-
-
 
 </td>
 <td valign="top">
@@ -47,8 +41,6 @@ By default, SAP Private Link service expects the customer's endpoint service to 
 If the SAP Private Link detects that the endpoint service on customer side runs in fewer zones than three, the connection will be rejected unless `desiredAZs` is set to the number of present availability zones.
 
 This is a precautionary measure to ensure that the connection cannot accidentally run with fewer than three zones.
-
-
 
 </td>
 </tr>
@@ -79,14 +71,10 @@ The following binding credentials are provided:
 
 *hostname*
 
-
-
 </td>
 <td valign="top">
 
 Regional DNS hostname to connect to the AWS interface endpoint.
-
-
 
 </td>
 </tr>

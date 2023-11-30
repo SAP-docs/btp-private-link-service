@@ -19,16 +19,12 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *serviceName* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 The serviceName on AWS side that uniquely identifies the AWS endpoint service to connect to.
 
 In case of Amazon Lambda, the value is always in the form com.amazonaws.<region\>.lambda.
-
-
 
 </td>
 </tr>
@@ -37,14 +33,10 @@ In case of Amazon Lambda, the value is always in the form com.amazonaws.<region\
 
 *policyDocument* \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 A JSON document specifying a [VPC endpoint policy](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-access.html).
-
-
 
 </td>
 </tr>
@@ -86,14 +78,10 @@ The following binding credentials are provided:
 
 *hostname*
 
-
-
 </td>
 <td valign="top">
 
 Regional DNS hostname to connect to the AWS interface endpoint.
-
-
 
 </td>
 </tr>

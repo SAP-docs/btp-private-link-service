@@ -19,14 +19,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 *resourceId* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the resource on Azure the private link should be created for.
-
-
 
 </td>
 </tr>
@@ -35,16 +31,12 @@ Identifies the resource on Azure the private link should be created for.
 
 *subResource* \(required\)
 
-
-
 </td>
 <td valign="top">
 
 Identifies the subresource on Azure the private link should be created for.
 
 Currently supported values for Azure Storage Account are: `table`, `table_secondary`, `queue`, `queue_secondary`, `file`, `web`, `web_secondary`, `blob`, `blob_secondary`, `dfs` and `dfs_secondary`.
-
-
 
 </td>
 </tr>
@@ -53,14 +45,10 @@ Currently supported values for Azure Storage Account are: `table`, `table_second
 
 *requestMessage* \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 Specifies a message which is shown for the approval request on Azure for the specified resource.
-
-
 
 </td>
 </tr>
@@ -90,14 +78,10 @@ The following binding credentials are provided:
 
 *hostname*
 
-
-
 </td>
 <td valign="top">
 
 DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
-
-
 
 </td>
 </tr>

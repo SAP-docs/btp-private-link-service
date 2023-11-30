@@ -13,56 +13,40 @@
 
 Technical Component
 
-
-
 </th>
 <th valign="top">
 
 Capability
-
-
 
 </th>
 <th valign="top">
 
 Environment
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -71,28 +55,20 @@ Available as of
 
 SAP Private Link \(Beta\)
 
-
-
 </td>
 <td valign="top">
 
 Extension Suite - Development Efficiency
-
-
 
 </td>
 <td valign="top">
 
 Cloud Foundry
 
-
-
 </td>
 <td valign="top">
 
 Enhanced Beta Release on Microsoft Azure
-
-
 
 </td>
 <td valign="top">
@@ -113,22 +89,16 @@ The SAP Private Link service \(Beta\) release comes with three major additions:
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 2021-12-16
 
-
-
 </td>
 </tr>
 <tr>
@@ -136,56 +106,40 @@ New
 
 SAP Private Link \(Beta\)
 
-
-
 </td>
 <td valign="top">
 
 Extension Suite - Development Efficiency
 
-
-
 </td>
 <td valign="top">
 
 Cloud Foundry
-
-
 
 </td>
 <td valign="top">
 
 New Binding Tags in the VCAP\_SERVICES Environment Variable
 
-
-
 </td>
 <td valign="top">
 
 When binding a service instance of type `privatelink` and service plan `standard` to an application, the binding tags `privatelink` and `privatelinkservice` are now included in the corresponding `privatelink` section of the VCAP\_SERVICES environment variable.
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 Changed
 
-
-
 </td>
 <td valign="top">
 
 2021-07-29
-
-
 
 </td>
 </tr>
@@ -194,28 +148,20 @@ Changed
 
 SAP Private Link \(Beta\)
 
-
-
 </td>
 <td valign="top">
 
 Extension Suite - Development Efficiency
-
-
 
 </td>
 <td valign="top">
 
 Cloud Foundry
 
-
-
 </td>
 <td valign="top">
 
 Beta Release on Microsoft Azure
-
-
 
 </td>
 <td valign="top">
@@ -226,28 +172,20 @@ With this beta release, SAP Private Link service lets you consume selected Azure
 
 See [What Is SAP Private Link Service \(Beta\)?](https://help.sap.com/viewer/42acd88cb4134ba2a7d3e0e62c9fe6cf/CLOUD/en-US/).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 2021-06-24
-
-
 
 </td>
 </tr>

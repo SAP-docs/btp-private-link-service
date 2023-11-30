@@ -21,14 +21,10 @@ The following Cloud Foundry service-specific configuration parameters are suppor
 
 **resourceId**
 
-
-
 </td>
 <td valign="top">
 
 Identifies the resource on Azure the private link should be created for.
-
-
 
 </td>
 </tr>
@@ -37,14 +33,10 @@ Identifies the resource on Azure the private link should be created for.
 
 **subResource**
 
-
-
 </td>
 <td valign="top">
 
 Identifies the subresource on Azure the private link should be created for. Must be either `coordinator` or `worker-<num>` to create a Private Link service instance for a specific worker node.
-
-
 
 </td>
 </tr>
@@ -53,14 +45,10 @@ Identifies the subresource on Azure the private link should be created for. Must
 
 **requestMessage**
 
-
-
 </td>
 <td valign="top">
 
 Specifies a message which is shown for the approval request on Azure for the specified resource.
-
-
 
 </td>
 </tr>
@@ -94,14 +82,10 @@ The following binding credentials are provided:
 
 **hostname**
 
-
-
 </td>
 <td valign="top">
 
 DNS entry to connect to the Azure resource. This DNS entry resolves to the internal IP address associated with this private link.
-
-
 
 </td>
 </tr>
