@@ -44,4 +44,6 @@ To learn how to set up SAP Private Link service on Amazon Web Services, see [Set
 
 -   **[Supported Services for Amazon Web Services in SAP BTP](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md "")**  
 
+-   **[Transport Layer Security Amazon Web Services](transport-layer-security-amazon-web-services-9f07803.md "")**  
+
 

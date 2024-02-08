@@ -24,6 +24,8 @@
         -   [Azure Cosmos DB for PostgreSQL](using-sap-private-link-service/azure-cosmos-db-for-postgresql-40d338b.md)
     -   [Consume Amazon Web Services in SAP BTP](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-5753419.md)
         -   [Supported Services for Amazon Web Services in SAP BTP](using-sap-private-link-service/supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md)
+        -   [Transport Layer Security Amazon Web Services](using-sap-private-link-service/transport-layer-security-amazon-web-services-9f07803.md)
+-   [Configure DNS on Kyma](configure-dns-on-kyma-72a3646.md)
 -   [Supporting SAP BTP Services](supporting-sap-btp-services-0128491.md)
     -   [SAP Commerce Cloud \(Azure Only\)](sap-commerce-cloud-azure-only-63c587f.md)
 -   [Security](security-3195b1f.md)

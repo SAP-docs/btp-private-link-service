@@ -91,8 +91,7 @@ AWS Endpoint Service
 </td>
 <td valign="top">
 
--   [Transport Layer Security](https://help.sap.com/docs/private-link/private-link1/aws-endpoint-service#transport-layer-security)
-
+-   [Transport Layer Security Amazon Web Services](transport-layer-security-amazon-web-services-9f07803.md)
 -   [Share your services through AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/privatelink-share-your-services.html)
 
 

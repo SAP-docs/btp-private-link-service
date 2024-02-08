@@ -11,9 +11,9 @@ SAP Private Link service establishes a private connection between selected SAP B
 If you are running your applications or services on SAP BTP and you want to communicate to another service that runs in your own Hyperscaler account, the communication between these two services should stay within the Hyperscaler backbone network and should not be routed through the public internet. By using the Private Link service, you establish a private communication channel where transferred data stays within the same Hyperscaler backbone network. Therefore, attack vectors are minimized and a secure communication is ensured. This is essential when it comes to transferring business data from one to another because any security breach can cause major damage to your business in general.
 
 > ### Note:  
-> The Private Link service currently only supports the SAP BTP Cloud Foundry runtime.
+> The Private Link service currently only supports the SAP BTP Cloud Foundry runtime and Kyma runtime.
 > 
-> For the future, we are evaluating the integration in other services such as Cloud Integration, SAC, DWC, HANA Cloud, Connectivity Service/Cloud Connector, and Kyma runtime.
+> For the future, we are evaluating the integration in other services such as Cloud Integration, SAC, DWC, HANA Cloud, and Connectivity Service/Cloud Connector.
 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
