@@ -20,7 +20,7 @@ If you are running your applications or services on SAP BTP and you want to comm
 > 
 > -   :pencil2: : Contribute to a document in the guide. This option opens a pull request on GitHub.
 > 
-> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a document in the guide. This option opens an issue on GitHub.
+> -   <span class="SAP-icons-V5"></span> Feedback: Provide feedback about a document in the guide. This option opens an issue on GitHub.
 > 
 > 
 > To use these options, a GitHub account is required.

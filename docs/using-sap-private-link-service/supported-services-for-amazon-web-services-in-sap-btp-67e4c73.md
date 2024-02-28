@@ -39,7 +39,7 @@ Notes
 <tr>
 <td valign="top">
 
-AWS Endpoint Service
+VPC Endpoint Service
 
 </td>
 <td valign="top">
@@ -101,7 +101,7 @@ AWS Endpoint Service
 <tr>
 <td valign="top">
 
-Amazon S3
+Amazon Simple Storage Service \(S3\)
 
 </td>
 <td valign="top">
@@ -157,7 +157,7 @@ Amazon S3
 </td>
 <td valign="top">
 
--   [AWS S3 PrivateLink Sample App](https://github.com/SAP-samples/private-link-aws-services/tree/main/s3)
+-   [Amazon Simple Storage Service \(S3\) PrivateLink Sample App](https://github.com/SAP-samples/private-link-aws-services/tree/main/s3)
 -   [AWS PrivateLink for Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html)
 
 
@@ -427,7 +427,7 @@ Amazon Relational Database Service \(RDS\) - Aurora Data API
 <tr>
 <td valign="top">
 
-Amazon Lambda
+AWS Lambda
 
 </td>
 <td valign="top">
@@ -493,7 +493,7 @@ Amazon Lambda
 <tr>
 <td valign="top">
 
-Amazon Key Management Service \(KMS\)
+AWS Key Management Service
 
 </td>
 <td valign="top">
@@ -560,7 +560,7 @@ Amazon Key Management Service \(KMS\)
 <tr>
 <td valign="top">
 
-Amazon IoT Core
+AWS IoT Core
 
 </td>
 <td valign="top">

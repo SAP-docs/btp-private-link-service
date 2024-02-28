@@ -98,7 +98,7 @@ No availability zones of VPC Endpoint Service 'com.amazonaws.vpce.us-east-1.vpce
 </td>
 <td valign="top">
 
-The endpoint service you want to connect to is not available in this zone. See  <?sap-ot O2O class="- topic/xref " href="6d1453baa5fa4e8fb3297e53ceb96bf6.xml" text="" desc="" xtrc="xref:6" xtrf="file:/home/builder/src/dita-all/nbu1622790870513/loioc337387b1cd14803bda2ccf11484b81b_en-US/src/content/localization/en-us/b4bc64d542ee4b238139a3987a4d1713.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+The endpoint service you want to connect to is not available in this zone. See  <?sap-ot O2O class="- topic/xref " href="6d1453baa5fa4e8fb3297e53ceb96bf6.xml" text="" desc="" xtrc="xref:6" xtrf="file:/home/builder/src/dita-all/nbu1622790870513/loioc337387b1cd14803bda2ccf11484b81b_en-US/src/content/localization/en-us/b4bc64d542ee4b238139a3987a4d1713.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Only 2 availability zones of VPC Endpoint Service 'com.amazonaws.vpce.us-east-1.
 </td>
 <td valign="top">
 
-The endpoint service you specified is not deployed to all supported zones on SAP BTP. See  <?sap-ot O2O class="- topic/xref " href="6d1453baa5fa4e8fb3297e53ceb96bf6.xml" text="" desc="" xtrc="xref:7" xtrf="file:/home/builder/src/dita-all/nbu1622790870513/loioc337387b1cd14803bda2ccf11484b81b_en-US/src/content/localization/en-us/b4bc64d542ee4b238139a3987a4d1713.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+The endpoint service you specified is not deployed to all supported zones on SAP BTP. See  <?sap-ot O2O class="- topic/xref " href="6d1453baa5fa4e8fb3297e53ceb96bf6.xml" text="" desc="" xtrc="xref:7" xtrf="file:/home/builder/src/dita-all/nbu1622790870513/loioc337387b1cd14803bda2ccf11484b81b_en-US/src/content/localization/en-us/b4bc64d542ee4b238139a3987a4d1713.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>
