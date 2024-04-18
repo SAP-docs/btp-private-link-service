@@ -62,6 +62,7 @@ The following Azure services can currently be consumed from SAP BTP:
 
 -   [Azure Cosmos DB for PostgreSQL](azure-cosmos-db-for-postgresql-40d338b.md)
 
+-   [Azure IoT Hub](azure-iot-hub-72a6ec5.md)
 
 > ### Note:  
 > If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
@@ -120,4 +121,6 @@ Consume Azure OpenAI with SAP Private Link service.
 Consume Azure Cache for Redis and Redis Enterprise with SAP Private Link service.
 -   **[Azure Cosmos DB for PostgreSQL](azure-cosmos-db-for-postgresql-40d338b.md "Consume Azure Cosmos DB for PostgreSQL with SAP Private Link service.")**  
 Consume Azure Cosmos DB for PostgreSQL with SAP Private Link service.
+-   **[Azure IoT Hub](azure-iot-hub-72a6ec5.md "Consume Azure IoT Hub with SAP Private Link service.")**  
+Consume Azure IoT Hub with SAP Private Link service.
 

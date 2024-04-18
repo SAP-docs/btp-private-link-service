@@ -13,7 +13,7 @@ If you are running your applications or services on SAP BTP and you want to comm
 > ### Note:  
 > The Private Link service currently only supports the SAP BTP Cloud Foundry runtime and Kyma runtime.
 > 
-> For the future, we are evaluating the integration in other services such as Cloud Integration, SAC, DWC, HANA Cloud, and Connectivity Service/Cloud Connector.
+> For the future, we are evaluating the integration in other services such as Cloud Integration, SAC, SAP Datasphere, HANA Cloud, and Connectivity Service/Cloud Connector.
 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:

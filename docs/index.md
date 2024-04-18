@@ -22,6 +22,7 @@
         -   [Azure OpenAI](using-sap-private-link-service/azure-openai-7056d9b.md)
         -   [Azure Cache for Redis](using-sap-private-link-service/azure-cache-for-redis-a204b79.md)
         -   [Azure Cosmos DB for PostgreSQL](using-sap-private-link-service/azure-cosmos-db-for-postgresql-40d338b.md)
+        -   [Azure IoT Hub](using-sap-private-link-service/azure-iot-hub-72a6ec5.md)
     -   [Consume Amazon Web Services in SAP BTP](using-sap-private-link-service/consume-amazon-web-services-in-sap-btp-5753419.md)
         -   [Supported Services for Amazon Web Services in SAP BTP](using-sap-private-link-service/supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md)
         -   [Transport Layer Security Amazon Web Services](using-sap-private-link-service/transport-layer-security-amazon-web-services-9f07803.md)
