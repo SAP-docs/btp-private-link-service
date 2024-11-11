@@ -36,7 +36,7 @@ We strongly recommend to set this setting by executing the following steps:
 
 4.  Click *Add Subscription* and add the SAP BTP CF's subscription IDs for the landscape where your Private Link service should be consumed from.
 
-    A current list of subscription IDs can be found in <https://me.sap.com/systemsprovisioning/connectivity\>.
+    A current list of subscription IDs can be found in [SAP for Me Systems & Provisioning](https://me.sap.com/systemsprovisioning/connectivity).
 
 5.  Hit *OK* and then *Save*.
 

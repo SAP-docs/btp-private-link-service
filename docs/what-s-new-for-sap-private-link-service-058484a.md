@@ -6,7 +6,7 @@
 
 
 
-**2022 - 2023**
+**2022 - 2024**
 
 
 <table>
@@ -71,6 +71,146 @@ Latest Revision
 Available as of
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Amazon Web Services available on SAP BTP Cloud Foundry regions
+
+</td>
+<td valign="top">
+
+The SAP Private Link service now also supports Amazon MSK on SAP BTP Cloud Foundry regions running on Amazon Web Services. For more information, see [Supported Services for Amazon Web Services in SAP BTP](using-sap-private-link-service/supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-11-14
+
+</td>
+<td valign="top">
+
+2024-11-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Deletion of the SAP Private Link service managed Private DNS zones attached to the SAP BTP Cloud Foundry regions.
+
+</td>
+<td valign="top">
+
+To enable both public and private endpoints for Azure resources via SAP BTP cockpit using SAP Private Link, the SAP Private Link managed by Private DNS zones in BTP Cloud Foundry regions will be deleted.
+
+The following changes are to be expected:
+
+-   [SAP Private link service keys will no longer contain the hostname of the connected resource, but instead the private IP address](https://help.sap.com/docs/private-link/private-link1/using-sap-private-link-service?locale=en-US&state=DRAFT&version=CLOUD#sap-private-link-service-keys-will-no-longer-contain-the-hostname-of-the-connected-resource%2C-but-instead-the-private-ip-address). Due date January 2025
+-   [SAP managed Private DNS Zones to Azure native services will be deleted from the BTP Cloud Foundry regions](https://help.sap.com/docs/private-link/private-link1/using-sap-private-link-service?locale=en-US&state=DRAFT&version=CLOUD#sap-managed-private-dns-zones-to-azure-native-services-will-be-deleted-from-the-btp-cloud-foundry-regions). Due date March 31, 2025
+
+Actions to take:
+
+-   Bind the SAP Private link service instances to the consuming applications.
+
+
+For more information, see [Announcement in Using SAP Private Link Service](https://help.sap.com/docs/private-link/private-link1/using-sap-private-link-service?locale=en-US&version=CLOUD).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-11-05
+
+</td>
+<td valign="top">
+
+2024-11-14
+
+</td>
 </tr>
 <tr>
 <td valign="top">

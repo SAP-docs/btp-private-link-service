@@ -285,7 +285,7 @@ Amazon Simple Queue Service \(SQS\)
 
 -   [AWS SQS PrivateLink Sample App](https://github.com/SAP-samples/private-link-aws-services/tree/main/sqs)
 
--   [Creating an Amazon VPC endpoint policy for Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-internetwork-traffic-privacy.html#sqs-vpc-endpoints)
+-   [https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-internetwork-traffic-privacy.html\#sqs-vpc-endpoints](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-internetwork-traffic-privacy.html#sqs-vpc-endpoints)
 
 
 
@@ -319,7 +319,8 @@ Amazon Simple Notification Service \(SNS\)
 >               "Resource": "arn:aws:sns:us-east-2:123456789012:MyTopic"
 >           }]
 >     }
-> }
+> }Creating an Amazon VPC
+> 											endpoint policy for Amazon SQS
 > ```
 
 
@@ -331,7 +332,7 @@ Amazon Simple Notification Service \(SNS\)
 
 > ### Sample Code:  
 > ```
-> {
+> Creating an Amazon VPC{
 >     ...
 >     "privatelink": [
 >         {
@@ -1914,6 +1915,72 @@ Amazon Bedrock
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Amazon MSK
+
+</td>
+<td valign="top">
+
+-   [serviceName](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md#loio67e4c7377a0f4154a3cf0e7034d71b5a__section_serviceName)
+
+    \(required\)
+
+-   [clusterARN](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md#loio67e4c7377a0f4154a3cf0e7034d71b5a__section_clusterARN)\(required\)
+-   [authentication](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md#loio67e4c7377a0f4154a3cf0e7034d71b5a__section_authentication) \(required\)
+-   [desiredAZs](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md#loio67e4c7377a0f4154a3cf0e7034d71b5a__section_desiredAZs) \(optional\)
+
+> ### Sample Code:  
+> ```
+> 
+> {
+>     "serviceName": "com.amazonaws.us-east-1.msk",
+>     "clusterARN": "arn:aws:kafka:us-east-1:666666666:cluster/demo/d5a31672-0b23-4tb5-va36-f4c38665af7c-1",
+>     "authentication": "SASL_SCRAM",
+>     "desiredAZs": 3
+> }
+> ```
+
+**Prerequisite is to allowlist your MSK cluster**:
+
+-   [Best Practices for Secure Endpoint Approval on AWS](../best-practices-for-secure-endpoint-approval-on-aws-e045588.md)
+
+
+
+
+</td>
+<td valign="top">
+
+> ### Sample Code:  
+> ```
+> 
+> {
+>    ...
+>    "privatelink": [
+>       {
+>          ...
+>          "credentials": {
+>             "hostname": "b-1.auth.name.abcabc.c1.kafka.region.amazonaws.com:14001,b-2.auth.name.abcabc.c1.kafka.region.amazonaws.com:14002,b-3.auth.name.abcabc.c1.kafka.region.amazonaws.com:14003"   
+>          }
+>       }
+>    ]
+> }
+> ```
+
+
+
+</td>
+<td valign="top">
+
+-   Supported in Kyma environment.
+
+-   Amazon MSK multi-VPC private connectivity in a single Region
+
+
+
+</td>
+</tr>
 </table>
 
 
@@ -1923,6 +1990,56 @@ Amazon Bedrock
 ## Known Limitations
 
 Only AWS services in the same region as the SAP BTP Cloud Foundry environment are supported. If you want to consume workloads in a different region via Private Link, you can create a dedicated Endpoint Service \(and Network Load Balancer\) in the local region which accesses the workload in the other region via VPC peering. See [Inter-Region Endpoint Services](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/use-case-examples.html#inter-region-endpoint-services)
+
+
+
+<a name="loio67e4c7377a0f4154a3cf0e7034d71b5a__section_vwx_pvz_gdc"/>
+
+## Known Limitations for Amazon MSK
+
+-   Multi-VPC private connectivity is supported only on Apache Kafka 2.7.1 or higher. Make sure that any clients that you use with the MSK cluster are running Apache Kafka versions that are compatible with the cluster.
+
+-   Multi-VPC private connectivity supports auth types TLS and SASL/SCRAM. Unauthenticated clusters can't use multi-VPC private connectivity.
+-   If you are using the SASL/SCRAM or mTLS access-control methods, you must set Apache Kafka ACLs for your cluster. First, set the Apache Kafka ACLs for your cluster. Then, update the cluster's configuration to have the property**allow.everyone.if.no.acl.found** set to **false** for the cluster. For information about how to update the configuration of a cluster, see [Amazon MSK configuration operations](https://docs.aws.amazon.com/msk/latest/developerguide/msk-configuration-operations.html). For more information about Apache Kafka ACLs, see [Apache Kafka ACLs](https://docs.aws.amazon.com/msk/latest/developerguide/msk-acls.html).
+-   Multi-VPC private connectivity doesn’t support the **t3.small** instance type.
+-   Multi-VPC private connectivity isn’t supported across AWS Regions, only on AWS accounts within the same Region.
+-   Amazon MSK doesn't support multi-VPC private connectivity to Zookeeper nodes.
+
+
+
+<a name="loio67e4c7377a0f4154a3cf0e7034d71b5a__section_nbm_3gc_dzb"/>
+
+## Binding Credential Attributes
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`hostname`
+
+</td>
+<td valign="top">
+
+Regional DNS hostname to connect to the AWS interface endpoint.
+
+</td>
+</tr>
+</table>
 
 
 
@@ -1984,39 +2101,27 @@ A JSON document specifying a VPC endpoint policy.
 
 </td>
 </tr>
-</table>
-
-
-
-<a name="loio67e4c7377a0f4154a3cf0e7034d71b5a__section_nbm_3gc_dzb"/>
-
-## Binding Credential Attributes
-
-****
-
-
-<table>
-<tr>
-<th valign="top">
-
-Name
-
-</th>
-<th valign="top">
-
-Description
-
-</th>
-</tr>
 <tr>
 <td valign="top">
 
-`hostname`
+`clusterARN`
 
 </td>
 <td valign="top">
 
-Regional DNS hostname to connect to the AWS interface endpoint.
+Specifies the AWS MSK cluster ARN for which the VPC Connection will be created.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`authentication`
+
+</td>
+<td valign="top">
+
+Specifies the AWS MSK authentication type with which the VPC Connection will be created. Supported types are: "SASL\_SCRAM" and "TLS".
 
 </td>
 </tr>

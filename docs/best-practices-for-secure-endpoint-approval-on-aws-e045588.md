@@ -24,25 +24,61 @@ Consider the following recommendations for secure approvals.
 
 ### 
 
-**Only allow requests from SAP BTP CF's AWS account**
+**Only allow requests from SAP BTP Cloud Foundry and Kyma environment's AWS accounts**
 
-You can configure AWS Endpoint Service so that only consumers from allowlisted AWS accounts can even create requests.
+You can configure AWS Endpoint Service and AWS MSK cluster so that only consumers from allowlisted AWS accounts can even create requests.
 
-We strongly recommend to set this setting by executing the following steps:
+We strongly recommend to set this setting by executing the following steps. Steps are separated in sub-steps for AWS Endpoint Service and AWS MSK cluster:
 
-1.  In the AWS console, navigate to your Endpoint Service
+1.  In the AWS Console,
+    -   navigate to your AWS Endpoint Service then navigate to**Allowed Principals** and click on *Allowed Principals*.
 
-2.  Navigate to *Allowed Principals* and click on *Allowed Principals*.
+    -   navigate to your AWS MSK cluster then navigate to**Actions** and click on *Edit cluster policy*.
 
-3.  Find the SAP BTP AWS Account IDs for the landscape where your Endpoint Service should be consumed from. A current list of account IDs can be found in <https://me.sap.com/systemsprovisioning/connectivity\>
-4.  For each account ID, hit *Add Principal* and enter the ARN in form of `arn:aws:iam::<SAP BTP account ID from step 3>:root`.
+2.  Find the SAP BTP AWS Account IDs for the landscape where your AWS Endpoint Service or AWS MSK cluster should be consumed from:
+    -   For Cloud Foundry: A current list of AWS account IDs can be found in [SAP for Me Systems & Provisioning](https://me.sap.com/systemsprovisioning/connectivity).
 
-5.  Hit *Allow principals*.
+    -   For Kyma environment: Create PLS service instance and error log will show up with AWS account ID information in it.
+
+3.  **Only for AWS Endpoint Service**: For each AWS Account ID, click *Add Principal* and enter the ARN in form of "arn:aws:iam::<SAP BTP AWS account ID from step 2\>:root". Click *Allow principals*.
+4.  **Only for AWS MSK cluster**: Modify your cluster policy with provided json below:
+    -   For each AWS account ID, enter the ARN in form of *arn:aws:iam::<SAP BTP AWS account ID from step 2\>:root*
+
+    -   For AWS MSK cluster ARN, enter at Resource property.
+    -   Provided actions under **Action** property are minimum to be created PLS service instance.
+    -   Click *Save Changes*.
 
 
-With this protection in place, only the approved SAP BTP accounts can create approval requests to your AWS Endpoint Service in the first place.
+> ### Sample Code:  
+> ```
+> {
+>     "Version": "2012-10-17",
+>     "Statement": [
+>         {
+>             "Effect": "Allow",
+>             "Principal": {
+>                 "AWS": [
+>                     "arn:aws:iam::1111122222:root",
+>                     "arn:aws:iam::3333344444:root"
+>                 ]
+>             },
+>             "Action": [
+>                 "kafka:DescribeCluster",
+>                 "kafka:DescribeClusterV2",
+>                 "kafka:CreateVpcConnection",
+>                 "kafka:GetBootstrapBrokers"
+>             ],
+>             "Resource": "arn:aws:kafka:us-east-1:66666666:cluster/demo/d5a31672-0b23-4tb5-va36-f4c38665af7c-1"
+>         }
+>     ]
+> }
+> ```
 
-You still need to make sure you follow the steps below to only approve benign requests from within SAP BTP:
+Find the SAP BTP AWS Account IDs for the landscape where your Endpoint Service should be consumed from. A current list of account IDs can be found in [SAP for Me Systems & Provisioning](https://me.sap.com/systemsprovisioning/connectivity).
+
+With this protection in place, only the approved SAP BTP cockpit accounts can create approval requests to your AWS Endpoint Service in the first place.
+
+You still need to make sure you follow the steps below to only approve benign requests from within SAP BTP cockpit:
 
 
 

@@ -150,5 +150,77 @@ Please recreate the service instance and try again. For more information, see [C
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+AWS MSK VPC Connection is only supported with "SASL\_SCRAM" and "TLS" authentication types. Please provide one of these two options at creation.
+
+</td>
+<td valign="top">
+
+For more information, see[Creation Request Configuration Parameters](https://help.sap.com/docs/private-link/private-link1/supported-services-for-amazon-web-services-in-sap-btp?version=CLOUD#creation-request-configuration-parameters).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AWS MSK cluster ARN is not provided. Please provide AWS MSK cluster ARN.
+
+</td>
+<td valign="top">
+
+For more information, see [Creation Request Configuration Parameters](https://help.sap.com/docs/private-link/private-link1/supported-services-for-amazon-web-services-in-sap-btp?version=DEV#creation-request-configuration-parameters).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AWS MSK cluster cross-account access is not allowed from AWS account 1111122222. Please grant access by editing your MSK cluster policy. More details can be found at [Best Practices for Secure Endpoint Approval on AWS](best-practices-for-secure-endpoint-approval-on-aws-e045588.md).
+
+</td>
+<td valign="top">
+
+For more information, see [.](best-practices-for-secure-endpoint-approval-on-aws-e045588.md)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Not equal or lower amount of availability zones of your MSK cluster 'demo' matched with supported availability zones. SAP BTP supports the following availability zone IDs: 'use1-az1', 'use1-az2', 'use1-az3' Please correct your AWS MSK cluster's availability zones to be equal or lower amount according SAP BTP supported.
+
+</td>
+<td valign="top">
+
+For more information, see [Create an Amazon MSK Cluster](https://docs.aws.amazon.com/msk/latest/developerguide/create-cluster.html).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Only 3 subnets assigned to your MSK cluster with supported of \(6\) availability zones \('use1-az1', 'use1-az2', 'use1-az3', 'use1-az4', 'use1-az5', 'use1-az6'\). This means that the endpoint would only be available in 3 AZs \('use1-az1', 'use1-az2', 'use1-az3'\). If this is acceptable, please set the parameter 'desiredAZs' to 3 during service instance creation.
+
+</td>
+<td valign="top">
+
+For more information, see [Creation Request Configuration Parameters](https://help.sap.com/docs/private-link/private-link1/supported-services-for-amazon-web-services-in-sap-btp?version=DEV#creation-request-configuration-parameters).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cross-provider consumption is forbidden.
+
+</td>
+<td valign="top">
+
+Your SAP BTP cockpit subaccount cloud provider should be the same as the cloud provider of the service you are connecting via private link.
+
+</td>
+</tr>
 </table>
 
