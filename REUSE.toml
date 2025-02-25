@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-private-link-service"
+SPDX-PackageSupplier = "Philipp Becker (philipp.becker@sap.com), Gowrisankar M (gowrisankar.m01@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-private-link-service"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021-2023 SAP SE or an SAP affiliate company and btp-private-link-service contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
