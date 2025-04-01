@@ -10,7 +10,7 @@ SAP Private Link service establishes a private connection between selected SAP B
 
 ## Overview
 
-To privately access a service in your Azure subcription, SAP Private Link service creates a private endpoint and reuses the private link functionality of Azure:
+To privately access a service in your Azure subscription, SAP Private Link service creates a private endpoint and reuses the private link functionality of Azure:
 
 ![Consuming Azure services in SAP BTP.](images/Private_Link_-_Scenario_1_0745a1a.png)
 
@@ -66,19 +66,6 @@ The following Azure services can currently be consumed from SAP BTP:
 
 > ### Note:  
 > If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
-
-> ### Restriction:  
-> Mixing public and private endpoints for Azure resources in your Azure subscription when connected via SAP BTP using SAP Private Link, is not supported at this point.
-> 
-> Possible solutions to address such requirements are:
-> 
-> -   Use only private endpoints and add SAP Private Link service to your SAP BTP implementation.
-> 
-> -   Enable a mixed setup of private public access to the storage account via SAP BTP in parallel using Azure Application Gateway.
-> 
-> -   Use virtual hostname in the SAP Cloud Connector pointing to the internal IP of our Azure native service.
-> 
-> -   Remove the private endpoint on Azure and consume publicly.
 
 
 

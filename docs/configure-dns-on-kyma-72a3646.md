@@ -18,7 +18,7 @@
 
 ## Overview
 
-The last step of connecting SAP Private Link Service is the binding of the application to a service instance. As a result of the creation of a binding between you application and a private link service instance, a secret that contains the binding credentials is created. That secret contains information about the private link endpoint in the form of FQDN and internal \(private\) IP address. There are various options in configuring the kyma cluster DNS so that the internal IP address is resolved from the FQDN.
+The last step of connecting SAP Private Link Service is the binding of the application to a service instance. As a result of the creation of a binding between you application and a Private Link Service instance, a secret that contains the binding credentials is created. That secret contains information about the private link endpoint in the form of FQDN and internal \(private\) IP address. There are various options in configuring the Kyma cluster DNS so that the internal IP address is resolved from the FQDN.
 
 
 
