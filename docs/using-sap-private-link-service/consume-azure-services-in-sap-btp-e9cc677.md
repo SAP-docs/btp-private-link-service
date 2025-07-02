@@ -79,8 +79,10 @@ To learn how to connect the SAP Private Link service to Microsoft Azure, see [ht
 Consume Azure Private Link service with SAP Private Link service.
 -   **[Azure Database for MariaDB](azure-database-for-mariadb-862fa29.md "Consume Azure Database for MariaDB with SAP Private Link service . ")**  
 Consume Azure Database for MariaDB with SAP Private Link service.
--   **[Azure Database for MySQL](azure-database-for-mysql-5c70499.md "Consume Azure Database for MySQL with SAP Private Link service . ")**  
-Consume Azure Database for MySQL with SAP Private Link service.
+-   **[Azure Database for MySQL](azure-database-for-mysql-5c70499.md "Consume Azure Database for MySQL with SAP Private Link service . The service is
+		supported with types Single server and Flexible
+			server. ")**  
+Consume Azure Database for MySQL with SAP Private Link service. The service is supported with types **Single server** and **Flexible server**.
 -   **[Azure Storage Account](azure-storage-account-75b307e.md "Consume Azure Storage Account with SAP Private Link service . ")**  
 Consume Azure Storage Account with SAP Private Link service.
 -   **[Azure Key Vault](azure-key-vault-407fb19.md "Consume Azure KeyVault and Azure Keyvault ManagedHSM with SAP Private Link

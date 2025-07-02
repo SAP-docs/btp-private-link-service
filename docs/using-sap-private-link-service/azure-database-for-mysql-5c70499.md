@@ -2,7 +2,7 @@
 
 # Azure Database for MySQL
 
-Consume Azure Database for MySQL with SAP Private Link service.
+Consume Azure Database for MySQL with SAP Private Link service. The service is supported with types **Single server** and **Flexible server**.
 
 
 
@@ -53,6 +53,8 @@ Specifies a message which is shown for the approval request on Azure for the spe
 </table>
 
 > ### Sample Code:  
+> Sample Code for Single Server:
+> 
 > ```
 > 
 > {
@@ -60,7 +62,17 @@ Specifies a message which is shown for the approval request on Azure for the spe
 >     "subResource": "mysqlServer",
 >     "requestMessage": "Please approve connection"
 > }
+> ```
+
+> ### Sample Code:  
+> Sample Code for Flexible Server:
 > 
+> ```
+> {
+>     "resourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.DBforMySQL/flexibleServers/myMySQL",
+>     "subResource": "mysqlServer",
+>     "requestMessage": "Please approve connection"
+> }
 > ```
 
 
