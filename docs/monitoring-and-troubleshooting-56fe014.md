@@ -29,4 +29,6 @@ If you encounter an issue with this service, we recommend following this procedu
 
 -   **[Error Messages on AWS](error-messages-on-aws-b4bc64d.md "")**  
 
+-   **[Troubleshooting Guide for SAP Private Link Service](troubleshooting-guide-for-sap-private-link-service-67cda52.md "")**  
+
 

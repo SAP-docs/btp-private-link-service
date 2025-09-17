@@ -35,6 +35,7 @@
 -   [Monitoring and Troubleshooting](monitoring-and-troubleshooting-56fe014.md)
     -   [Error Messages on Azure](error-messages-on-azure-c9be70f.md)
     -   [Error Messages on AWS](error-messages-on-aws-b4bc64d.md)
+    -   [Troubleshooting Guide for SAP Private Link Service](troubleshooting-guide-for-sap-private-link-service-67cda52.md)
 -   [Accessibility Features in SAP Private Link Service](accessibility-features-in-sap-private-link-service-21baf70.md)
 -   [Service Offboarding](service-offboarding-713f9f8.md)
 
