@@ -1954,14 +1954,27 @@ Amazon MSK
 
 > ### Sample Code:  
 > ```
-> 
 > {
 >    ...
 >    "privatelink": [
 >       {
 >          ...
 >          "credentials": {
->             "hostname": "b-1.auth.name.abcabc.c1.kafka.region.amazonaws.com:14001,b-2.auth.name.abcabc.c1.kafka.region.amazonaws.com:14002,b-3.auth.name.abcabc.c1.kafka.region.amazonaws.com:14003"   
+>             "hostname": "b-1.auth.name.abcabc.c1.kafka.region.amazonaws.com:14001,b-2.auth.name.abcabc.c1.kafka.region.amazonaws.com:14002,b-3.auth.name.abcabc.c1.kafka.region.amazonaws.com:14003",
+>             "endpoints": [
+>                {
+>                   "fqdn": "b-1.auth.name.abcabc.c1.kafka.region.amazonaws.com",
+>                   "ipv4": "192.168.1.1"
+>                },
+>                {
+>                   "fqdn": "b-2.auth.name.abcabc.c1.kafka.region.amazonaws.com",
+>                   "ipv4": "192.168.1.2"
+>                },
+>                {
+>                   "fqdn": "b-3.auth.name.abcabc.c1.kafka.region.amazonaws.com",
+>                   "ipv4": "192.168.1.3"
+>                }
+>             ]
 >          }
 >       }
 >    ]
@@ -1973,9 +1986,7 @@ Amazon MSK
 </td>
 <td valign="top">
 
--   Supported in Kyma environment.
-
--   Amazon MSK multi-VPC private connectivity in a single Region
+-   [Amazon MSK multi-VPC private connectivity in a single Region](https://docs.aws.amazon.com/msk/latest/developerguide/aws-access-mult-vpc.html).
 
 
 
@@ -2003,6 +2014,7 @@ Only AWS services in the same region as the SAP BTP Cloud Foundry environment ar
 -   If you are using the SASL/SCRAM or mTLS access-control methods, you must set Apache Kafka ACLs for your cluster. First, set the Apache Kafka ACLs for your cluster. Then, update the cluster's configuration to have the property**allow.everyone.if.no.acl.found** set to **false** for the cluster. For information about how to update the configuration of a cluster, see [Amazon MSK configuration operations](https://docs.aws.amazon.com/msk/latest/developerguide/msk-configuration-operations.html). For more information about Apache Kafka ACLs, see [Apache Kafka ACLs](https://docs.aws.amazon.com/msk/latest/developerguide/msk-acls.html).
 -   Multi-VPC private connectivity doesn’t support the **t3.small** instance type.
 -   Multi-VPC private connectivity isn’t supported across AWS Regions, only on AWS accounts within the same Region.
+-   To set up multi-VPC private connectivity, you must have the same number of client subnets as cluster subnets. You must also make sure that Availability Zone IDs are same for the client subnet and cluster subnet.
 -   Amazon MSK doesn't support multi-VPC private connectivity to Zookeeper nodes.
 
 
@@ -2030,12 +2042,12 @@ Description
 <tr>
 <td valign="top">
 
-`hostname`
+`endpoints`
 
 </td>
 <td valign="top">
 
-Regional DNS hostname to connect to the AWS interface endpoint.
+Map of AWS MSK cluster's brokers hostname and their internal IPs.
 
 </td>
 </tr>

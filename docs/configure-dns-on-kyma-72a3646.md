@@ -10,7 +10,7 @@
 
 -   You have set up SAP Private Link Service
 
--   You have connected SAP Private Link Service to Microsoft Azure Private Link Service
+-   You have connected SAP Private Link Service to Microsoft Azure Private Link Service or to Google Cloud Private Service Connect
 
 
 

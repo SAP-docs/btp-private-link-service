@@ -36,47 +36,74 @@ We strongly recommend to set this setting by executing the following steps. Step
     -   navigate to your AWS MSK cluster then navigate to**Actions** and click on *Edit cluster policy*.
 
 2.  Find the SAP BTP AWS Account IDs for the landscape where your AWS Endpoint Service or AWS MSK cluster should be consumed from:
-    -   For Cloud Foundry: A current list of AWS account IDs can be found in [SAP for Me Systems & Provisioning](https://me.sap.com/systemsprovisioning/connectivity).
+    -   For Cloud Foundry: A current list of AWS account IDs can be found in [3811111 - Best Practices for Secure Endpoint Approval](https://me.sap.com/notes/3811111).
 
     -   For Kyma environment: Create PLS service instance and error log will show up with AWS account ID information in it.
 
 3.  **Only for AWS Endpoint Service**: For each AWS Account ID, click *Add Principal* and enter the ARN in form of "arn:aws:iam::<SAP BTP AWS account ID from step 2\>:root". Click *Allow principals*.
-4.  **Only for AWS MSK cluster**: Modify your cluster policy with provided json below:
+4.  **Only for AWS MSK cluster to Cloud Foundry and Kyma instances**: Modify your cluster policy with provided json below:
+
     -   For each AWS account ID, enter the ARN in form of *arn:aws:iam::<SAP BTP AWS account ID from step 2\>:root*
 
     -   For AWS MSK cluster ARN, enter at Resource property.
     -   Provided actions under **Action** property are minimum to be created PLS service instance.
     -   Click *Save Changes*.
 
+    > ### Sample Code:  
+    > ```
+    > {
+    >     "Version": "2012-10-17",
+    >     "Statement": [
+    >         {
+    >             "Effect": "Allow",
+    >             "Principal": {
+    >                 "AWS": [
+    >                     "arn:aws:iam::1111122222:root",
+    >                     "arn:aws:iam::3333344444:root"
+    >                 ]
+    >             },
+    >             "Action": [
+    >                 "kafka:DescribeCluster",
+    >                 "kafka:DescribeClusterV2",
+    >                 "kafka:CreateVpcConnection",
+    >                 "kafka:GetBootstrapBrokers"
+    >             ],
+    >             "Resource": "arn:aws:kafka:us-east-1:66666666:cluster/demo/d5a31672-0b23-4tb5-va36-f4c38665af7c-1"
+    >         }
+    >     ]
+    > }
+    > ```
 
-> ### Sample Code:  
-> ```
-> {
->     "Version": "2012-10-17",
->     "Statement": [
->         {
->             "Effect": "Allow",
->             "Principal": {
->                 "AWS": [
->                     "arn:aws:iam::1111122222:root",
->                     "arn:aws:iam::3333344444:root"
->                 ]
->             },
->             "Action": [
->                 "kafka:DescribeCluster",
->                 "kafka:DescribeClusterV2",
->                 "kafka:CreateVpcConnection",
->                 "kafka:GetBootstrapBrokers"
->             ],
->             "Resource": "arn:aws:kafka:us-east-1:66666666:cluster/demo/d5a31672-0b23-4tb5-va36-f4c38665af7c-1"
->         }
->     ]
-> }
-> ```
+5.  **Additional for CloudFoundry instances with AWS MSK cluster**:
+
+    -   Create a Custom Policy with provided json below \(Update Resource property value\).
+    -   Create a Custom IAM Role.
+    -   For **Trusted entity type**, select **AWS account**.
+    -   Select **Another AWS account** and insert AWS account ID from **Step 2: Find the SAP BTP AWS Account IDs**.
+    -   To add permissions, select created Custom Policy from **Step 1**.
+    -   The role name should be the same as your AWS MSK cluster's name.
+    -   Click *Create role*.
+
+    > ### Sample Code:  
+    > ```
+    > {
+    >     "Version": "2012-10-17",
+    >     "Statement": [
+    >         {
+    >             "Effect": "Allow",
+    >             "Action": [
+    >                 "kafka:ListNodes"
+    >             ],
+    >             "Resource": "arn:aws:kafka:us-east-1:66666666:cluster/demo/d5a31672-0b23-4tb5-va36-f4c38665af7c-1"
+    >         }
+    >     ]
+    > }
+    > ```
+
 
 Find the SAP BTP AWS Account IDs for the landscape where your Endpoint Service should be consumed from. A current list of account IDs can be found in [SAP for Me Systems & Provisioning](https://me.sap.com/systemsprovisioning/connectivity).
 
-With this protection in place, only the approved SAP BTP cockpit accounts can create approval requests to your AWS Endpoint Service in the first place.
+With this protection in place, only the approved SAP BTP accounts can create approval requests to your AWS Endpoint Service in the first place.
 
 You still need to make sure you follow the steps below to only approve benign requests from within SAP BTP cockpit:
 

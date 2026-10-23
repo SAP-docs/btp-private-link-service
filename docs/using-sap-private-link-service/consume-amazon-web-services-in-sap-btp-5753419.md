@@ -33,7 +33,7 @@ To privately access a service in your AWS accounts, SAP Private Link service cre
 See [Supported Services for Amazon Web Services in SAP BTP](supported-services-for-amazon-web-services-in-sap-btp-67e4c73.md), for all Amazon Web Services that can currently be consumed from SAP BTP.
 
 > ### Note:  
-> If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
+> If you would like to use a service or scenario with SAP Private Link service that is not available yet, please follow the guidance in [SAP Customer Influence](https://pages.community.sap.com/topics/influence-adopt).
 
 
 

@@ -52,3 +52,9 @@ You can bring your own hostname and certificates with the following procedure:
 
 This approach allows customers to use their existing DNS & TLS certificate procedures together with service instances provided by the SAP Private Link service.
 
+
+
+## Mutual TLS Client Authentication for Amazon MSK
+
+More information can be found in the [AWS guides](https://docs.aws.amazon.com/msk/latest/developerguide/msk-authentication.html) and the following reference for a [Set up](https://docs.aws.amazon.com/msk/latest/developerguide/msk-authentication-client.html).
+

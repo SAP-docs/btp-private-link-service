@@ -22,7 +22,7 @@ Consider the following recommendations for secure approvals.
 
 
 
-### **Only allow requests from SAP BTP CF's Azure subscription**
+### **Only allow requests from SAP BTP Cloud Foundry and Kyma environment's accounts**
 
 You can configure Azure Private Link Service so that only consumers from allowlisted Azure subscriptions can even create requests.
 
@@ -34,14 +34,14 @@ We strongly recommend to set this setting by executing the following steps:
 
 3.  Under *Who can request access to your service?* select *Restricted by subscription*.
 
-4.  Click *Add Subscription* and add the SAP BTP CF's subscription IDs for the landscape where your Private Link service should be consumed from.
+4.  Click *Add Subscription* and add the Azure subscription IDs of the SAP BTP accounts for the landscape where your Private Link service should be consumed from.
 
-    A current list of subscription IDs can be found in [SAP for Me Systems & Provisioning](https://me.sap.com/systemsprovisioning/connectivity).
+    A current list of subscription IDs can be found in [3811111 - Best Practices for Secure Endpoint Approval](https://me.sap.com/notes/3811111).
 
 5.  Hit *OK* and then *Save*.
 
 
-With this protection in place, only the approved SAP BTP CF subscriptions can create approval requests to your Azure Private Link service in the first place.
+With this protection in place, only the approved SAP BTP accounts can create approval requests to your Azure Private Link service in the first place.
 
 You still need to make sure you follow the steps below to only approve benign requests from within SAP BTP:
 

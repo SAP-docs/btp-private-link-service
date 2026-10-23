@@ -14,7 +14,7 @@
 
 -   What is SAP Private Link Service?
 -   Is this a private connection? And which protocol is used?
--   Is this connectivity a site-to-site type or site \(SAP BTP\)-to-point \(particular service on Azure/ AWS\) type?
+-   Is this connectivity a site-to-site type or site \(SAP BTP\)-to-point \(particular service on Azure/ AWS/GCP\) type?
 -   Is there a limit of bandwidth or data transfer per SAP BTP global account, subaccount or space?
 -   Where can I find more information about the SAP Private Link Service?
 -   Does SAP Private Link service connect different hyperscalers?
@@ -23,7 +23,7 @@
 
 ## What is SAP Private Link Service?
 
-The new SAP Private Link service on SAP BTP will enable customers and partners to access **selected** services hosted in their own hyperscaler accounts from **selected** SAP BTP services on hyperscaler accounts using private network connections, without exposing the traffic and data to public internet. For this, the service will reuse established hyperscaler functionality like [Microsoft Azure Private Link](https://azure.microsoft.com/en-us/services/private-link/) and [AWS PrivateLink](https://aws.amazon.com/privatelink/).
+The new SAP Private Link service on SAP BTP will enable customers and partners to access **selected** services hosted in their own hyperscaler accounts from **selected** SAP BTP services on hyperscaler accounts using private network connections, without exposing the traffic and data to public internet. For this, the service will reuse established hyperscaler functionality like [Microsoft Azure Private Link](https://azure.microsoft.com/en-us/services/private-link/), [AWS PrivateLink](https://aws.amazon.com/privatelink/) and [Google Private Service Connect](https://docs.cloud.google.com/vpc/docs/private-service-connect).
 
 Since we rely on functionality from the hyperscaler providers, the service will not support cross-hyperscaler connections. For example, if the customer's BTP subaccount is on MS Azure, they will only be able to connect to services in their MS Azure account.
 
@@ -39,7 +39,7 @@ The connection is private insofar as the transferred data will not leave the dat
 
 
 
-## Is this connectivity a site-to-site type or site \(SAP BTP\)-to-point \(particular service on Azure/ AWS\) type?
+## Is this connectivity a site-to-site type or site \(SAP BTP\)-to-point \(particular service on Azure/ AWS/GCP\) type?
 
 This is a **site to point** connectivity option. It allows network connectivity between all of your CF applications that run in the same CF space which holds the private link service instance and an Azure service located within your Azure account.
 
@@ -60,15 +60,23 @@ An overview over the [published blog posts](https://community.sap.com/t5/forums/
 We have also published some tutorials:
 
 -   Azure
-    -   [Set Up SAP Private Link Service](https://developers.sap.com/tutorials/private-link-onboarding.html)
+    -   [Set Up SAP Private Link Service on Microsoft Azure](https://developers.sap.com/tutorials/private-link-onboarding.html)
 
-    -   [Connect SAP Private Link Service to Microsoft Azure Private Link Service](https://developers.sap.com/tutorials/private-link-microsoft-azure.html)​​​​​​​​​​​​​​
+    -   [Connect SAP Private Link Service to Microsoft Azure Private Link Service \(CF\)](https://developers.sap.com/tutorials/private-link-microsoft-azure.html)​​​​​​​​​​​​​​
+
+    -   [Connect SAP Private Link Service to Microsoft Azure Private Link Service \(Kyma\)](https://developers.sap.com/tutorials/private-link-azure-kyma.html)
 
 
 -   AWS
 
-    -   [Set Up SAP Private Link Service on Amazon Web Services \(Beta\)](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html)
-    -   [Connect SAP Private Link Service to AWS PrivateLink Service](https://developers.sap.com/tutorials/private-link-aws.html)
+    -   [Set Up SAP Private Link Service on Amazon Web Services](https://developers.sap.com/tutorials/private-link-service-onboarding-aws.html)
+    -   [Connect SAP Private Link Service to AWS PrivateLink Service \(CF\)](https://developers.sap.com/tutorials/private-link-aws.html)
+    -   [Connect SAP Private Link Service to AWS PrivateLink Service \(Kyma\)](https://developers.sap.com/tutorials/private-link-aws-kyma.html)
+
+-   GCP
+    -   [Set Up SAP Private Link Service on Google Cloud Platform](https://developers.sap.com/tutorials/private-link-onboarding-gcp.html)
+    -   [Connect SAP Private Link Service to Google Private Service Connect \(CF\)](https://developers.sap.com/tutorials/private-link-gcp.html)
+    -   [Connect SAP Private Link Service to Google Private Service Connect \(Kyma\)](https://developers.sap.com/tutorials/conncet-private-link-to-gcp-service-connect-kyma.html)
 
 
 Microsoft has also published a general [FAQ for the Azure Private Link service](https://docs.microsoft.com/en-us/azure/private-link/private-link-faq), which is used as technical basis for offering our service on BTP regions on Azure.

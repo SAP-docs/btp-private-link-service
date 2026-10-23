@@ -60,4 +60,6 @@ Learn about recommended secure approval processes when establishing a connection
 -   **[Best Practices for Secure Endpoint Approval on AWS](best-practices-for-secure-endpoint-approval-on-aws-e045588.md "Learn about recommended secure approval processes when establishing a connection via
 			Private Link service ")**  
 Learn about recommended secure approval processes when establishing a connection via Private Link service
+-   **[Best Practices for Secure Endpoint Approval on Google Cloud Platform](best-practices-for-secure-endpoint-approval-on-google-cloud-platform-7eeeb76.md "Learn about recommended secure approval processes when you establish a connection through Private Link service.")**  
+Learn about recommended secure approval processes when you establish a connection through Private Link service.
 

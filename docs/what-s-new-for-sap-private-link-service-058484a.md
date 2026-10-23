@@ -6,7 +6,7 @@
 
 
 
-**2022 - 2024**
+**2022 - 2026**
 
 
 <table>
@@ -71,6 +71,585 @@ Latest Revision
 Available as of
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Regions Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-sa30**, **cf-sa31**, **cf-jp31** and **cf-in30**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+2026-10-08
+
+</td>
+<td valign="top">
+
+2026-10-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-eu22** and **cf-ca20**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+2026-10-01
+
+</td>
+<td valign="top">
+
+2026-10-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-us21-001**
+
+.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+2026-08-10
+
+</td>
+<td valign="top">
+
+2026-08-10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-us10-003**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link Service
+
+</td>
+<td valign="top">
+
+2026-08-06
+
+</td>
+<td valign="top">
+
+2026-08-06
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-eu10-005**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link Service
+
+</td>
+<td valign="top">
+
+2026-07-10
+
+</td>
+<td valign="top">
+
+2026-07-10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+-   Kyma
+
+
+
+</td>
+<td valign="top">
+
+SAP Private Link Service on Google Cloud Platform in SAP BTP
+
+</td>
+<td valign="top">
+
+With this release, SAP Private Link service lets you consume selected Google Cloud Platform services \(GCP\) in your own GCP projects in SAP BTP. For more information, see [Consume Google Cloud Services in SAP BTP](using-sap-private-link-service/consume-google-cloud-services-in-sap-btp-2efdc6f.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link Service
+
+</td>
+<td valign="top">
+
+2026-05-15
+
+</td>
+<td valign="top">
+
+2026-05-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-eu20-002**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link Service
+
+</td>
+<td valign="top">
+
+2026-03-27
+
+</td>
+<td valign="top">
+
+2026-03-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-us11**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link Service
+
+</td>
+<td valign="top">
+
+2025-10-29
+
+</td>
+<td valign="top">
+
+2025-10-29
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Region Available
+
+</td>
+<td valign="top">
+
+The SAP Private Link service is now available on region: **cf-br20**.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link Service
+
+</td>
+<td valign="top">
+
+2025-10-07
+
+</td>
+<td valign="top">
+
+2025-10-07
+
+</td>
 </tr>
 <tr>
 <td valign="top">

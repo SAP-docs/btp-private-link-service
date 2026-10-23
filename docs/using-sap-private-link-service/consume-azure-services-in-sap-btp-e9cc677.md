@@ -65,7 +65,7 @@ The following Azure services can currently be consumed from SAP BTP:
 -   [Azure IoT Hub](azure-iot-hub-72a6ec5.md)
 
 > ### Note:  
-> If you would like to use a service or scenario with SAP Private Link service that is not available yet, please open a support ticket on BC-CP-PRIVATELINK.
+> If you would like to use a service or scenario with SAP Private Link service that is not available yet, please follow the guidance in [SAP Customer Influence](https://pages.community.sap.com/topics/influence-adopt).
 
 
 
