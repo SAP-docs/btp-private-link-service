@@ -92,6 +92,70 @@ New Regions Available
 </td>
 <td valign="top">
 
+The SAP Private Link service is now available on region: **cf-il30** 
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+2026-10-28
+
+</td>
+<td valign="top">
+
+2026-10-28
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Private Link
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Regions Available
+
+</td>
+<td valign="top">
+
 The SAP Private Link service is now available on region: **cf-sa30**, **cf-sa31**, **cf-jp31** and **cf-in30**.
 
 </td>
